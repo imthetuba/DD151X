@@ -1,9 +1,9 @@
 
 
-.tex
-.pdf
-.bib
-
+*.tex
+*.pdf
+*.bib
+*.cls
 # Ruff stuff:
 .ruff_cache/
 
