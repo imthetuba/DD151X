@@ -185,3 +185,188 @@ Imbalance decision:
 
 - Use `class_weight='balanced'` for baseline model training.
 - Evaluate oversampling (for example SMOTE) in cross-validated experiments.
+
+
+Step 2 Goal
+Build and compare four model families on the same 3-class target using three feature views:
+
+ESG only
+Financial only
+ESG + Financial
+Models to include:
+
+Logistic Regression
+Naive Bayes
+Random Forest
+XGBoost (Gradient Boosting family)
+Proposed Folder Structure
+Keep it minimal and numbered so execution flow is obvious.
+
+src
+src/data
+src/features
+src/models
+src/evaluation
+src/utils
+configs
+outputs
+outputs/01_splits
+outputs/02_trained_models
+outputs/03_metrics
+outputs/04_plots
+outputs/05_feature_importance
+outputs/06_predictions
+outputs/07_reports
+File Naming Convention
+Use one consistent pattern everywhere:
+run_{date}{feature_set}{model_name}_{split_type}.{ext}
+
+Examples:
+
+run_2026-03-25_esg_only_logreg_stratified.json
+run_2026-03-25_financial_only_rf_grouped.csv
+run_2026-03-25_esg_fin_xgb_stratified.png
+This makes results searchable and easy to explain in the thesis.
+
+Planned Python Modules
+
+src/data/load_dataset.py
+Loads data/modeling_dataset_step1.csv
+Basic schema check
+src/features/build_feature_views.py
+Creates ESG-only, financial-only, combined matrices
+Applies final feature list and missing-value policy
+src/data/split_data.py
+Creates train/test splits
+Saves split indices to outputs/01_splits
+src/models/train_models.py
+Trains all four models for each feature set
+Handles class weighting and optional resampling
+src/evaluation/evaluate_models.py
+Computes metrics and confusion matrices
+Writes standardized output files
+src/evaluation/feature_importance.py
+Model explainability outputs (coefficients/importances/SHAP)
+src/run_experiments.py
+Orchestrator that runs everything end-to-end
+configs/experiment_config.yaml
+Central config for features, split seed, model params, output paths
+Feature Sets to Train On
+
+From current available columns in data/modeling_dataset_step1.csv:
+
+Financial only
+enterprise_value
+revenue
+book_value_equity
+book_value_debt
+debt_to_equity_ratio
+ESG only
+total_ghg_emission
+scope1
+scope2_location
+carbon_intensity
+carbon_target
+high_impact_climate_sector
+fossil_fuel_sector
+report_biodiversity
+negative_affect_biodiversity
+exp_controversial_weapons
+exp_controversial_products
+exp_debt_collection_or_loans
+female_board
+male_board
+female_board_share
+ESG + Financial
+Union of both lists above
+Target:
+
+risk_class_3
+ID/time/meta kept but not used as training features:
+
+organization_number
+issuer_name
+period_from
+period_to
+period_year
+rating_agency
+rating_symbol
+rating_normalized
+Important Data Note
+Some variables highlighted in your thesis narrative are not currently in Step 1 data (for example Interest Coverage Ratio, ROA, ESG Score, Renewable Energy Share, Climate Policy Uncertainty).
+Plan should include a later data-enrichment task so importance rankings can include them explicitly.
+
+Ratios and Transformations: Before or After Split
+Yes, ratio engineering is needed and should be explicit.
+
+Recommended:
+
+Per-row deterministic ratios (for example debt_to_equity_ratio, carbon_intensity): compute before split (no leakage).
+Any operation that learns from global distribution (scaling, imputation statistics, PCA): fit on train only, then apply to test.
+Use Z-score standardization for models that benefit from scaling:
+Logistic Regression
+Naive Bayes
+XGBoost optional
+Random Forest not required but okay for consistency
+Train/Test Split Plan
+Use two split strategies:
+
+Primary simple split for easy explanation
+80/20 stratified split on risk_class_3
+random_state = 42
+Robustness split to reduce issuer leakage risk
+Grouped split by organization_number
+Keep train/test issuers disjoint
+Report both results, use grouped result as stronger evidence
+This keeps communication simple while addressing a major methodological risk.
+
+Class Imbalance Handling
+From data/modeling_dataset_step1_diagnostics.json, High Yield is minority.
+Plan:
+
+Baseline: class_weight = balanced where supported
+Secondary: train-set-only oversampling (SMOTE or random oversampling)
+Compare both and keep the better validated setup
+Evaluation Outputs (Per Model x Feature Set x Split Type)
+
+Metrics JSON/CSV
+accuracy
+macro precision
+macro recall
+macro F1
+weighted F1
+one-vs-rest ROC-AUC (macro)
+Confusion matrix image
+
+Per-row predictions CSV
+
+true label
+predicted label
+class probabilities
+Explainability artifacts
+Logistic Regression coefficients
+Random Forest feature importances
+XGBoost feature importances
+SHAP summary for tree models (optional in first pass, recommended in second pass)
+Run summary markdown
+Best model by macro F1
+Best model by ROC-AUC
+Performance delta across ESG-only vs Financial-only vs Combined
+Execution Matrix
+Total planned runs:
+
+3 feature sets x 4 models x 2 split types = 24 runs
+Start simple:
+
+Do 12 runs on primary stratified split
+Add 12 grouped robustness runs after baseline is stable
+Definition of Done for Step 2
+
+All 24 runs completed without failures
+Reproducible outputs saved to structured folders
+One comparison table across all runs
+One explainability table listing top drivers per best model
+Clear answer to:
+Does ESG-only beat financial-only?
+Does ESG + financial beat both?
+Which model family is strongest under class imbalance and grouped split?
