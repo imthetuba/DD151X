@@ -186,187 +186,92 @@ Imbalance decision:
 - Use `class_weight='balanced'` for baseline model training.
 - Evaluate oversampling (for example SMOTE) in cross-validated experiments.
 
+## Step 2 Implementation (Completed)
 
-Step 2 Goal
-Build and compare four model families on the same 3-class target using three feature views:
+Step 2 is now implemented as a config-driven training pipeline for all required model families and feature views.
 
-ESG only
-Financial only
-ESG + Financial
-Models to include:
+### What is implemented
 
-Logistic Regression
-Naive Bayes
-Random Forest
-XGBoost (Gradient Boosting family)
-Proposed Folder Structure
-Keep it minimal and numbered so execution flow is obvious.
+- Models:
+  - Logistic Regression
+  - Naive Bayes
+  - Random Forest
+  - XGBoost
+- Feature views:
+  - `financial_only`
+  - `esg_only`
+  - `esg_financial`
+- Split strategies:
+  - Stratified 80/20 split (`random_state=42`)
+  - Grouped 80/20 split by `organization_number`
 
-src
-src/data
-src/features
-src/models
-src/evaluation
-src/utils
-configs
-outputs
-outputs/01_splits
-outputs/02_trained_models
-outputs/03_metrics
-outputs/04_plots
-outputs/05_feature_importance
-outputs/06_predictions
-outputs/07_reports
-File Naming Convention
-Use one consistent pattern everywhere:
-run_{date}{feature_set}{model_name}_{split_type}.{ext}
+### Folder structure
 
-Examples:
+- `src/data`: dataset loading and split logic
+- `src/features`: feature-view construction
+- `src/models`: model factory and training logic
+- `src/evaluation`: metrics, confusion matrix, feature importance
+- `src/utils`: IO helpers and run naming
+- `configs`: experiment configuration
+- `outputs`: generated artifacts
 
-run_2026-03-25_esg_only_logreg_stratified.json
-run_2026-03-25_financial_only_rf_grouped.csv
-run_2026-03-25_esg_fin_xgb_stratified.png
-This makes results searchable and easy to explain in the thesis.
+### Key files
 
-Planned Python Modules
+- [configs/experiment_config.yaml](configs/experiment_config.yaml)
+- [src/run_experiments.py](src/run_experiments.py)
+- [src/data/load_dataset.py](src/data/load_dataset.py)
+- [src/data/split_data.py](src/data/split_data.py)
+- [src/features/build_feature_views.py](src/features/build_feature_views.py)
+- [src/models/model_factory.py](src/models/model_factory.py)
+- [src/models/train_models.py](src/models/train_models.py)
+- [src/evaluation/evaluate_models.py](src/evaluation/evaluate_models.py)
 
-src/data/load_dataset.py
-Loads data/modeling_dataset_step1.csv
-Basic schema check
-src/features/build_feature_views.py
-Creates ESG-only, financial-only, combined matrices
-Applies final feature list and missing-value policy
-src/data/split_data.py
-Creates train/test splits
-Saves split indices to outputs/01_splits
-src/models/train_models.py
-Trains all four models for each feature set
-Handles class weighting and optional resampling
-src/evaluation/evaluate_models.py
-Computes metrics and confusion matrices
-Writes standardized output files
-src/evaluation/feature_importance.py
-Model explainability outputs (coefficients/importances/SHAP)
-src/run_experiments.py
-Orchestrator that runs everything end-to-end
-configs/experiment_config.yaml
-Central config for features, split seed, model params, output paths
-Feature Sets to Train On
+### Run Step 2
 
-From current available columns in data/modeling_dataset_step1.csv:
+```bash
+python src/run_experiments.py --config configs/experiment_config.yaml
+```
 
-Financial only
-enterprise_value
-revenue
-book_value_equity
-book_value_debt
-debt_to_equity_ratio
-ESG only
-total_ghg_emission
-scope1
-scope2_location
-carbon_intensity
-carbon_target
-high_impact_climate_sector
-fossil_fuel_sector
-report_biodiversity
-negative_affect_biodiversity
-exp_controversial_weapons
-exp_controversial_products
-exp_debt_collection_or_loans
-female_board
-male_board
-female_board_share
-ESG + Financial
-Union of both lists above
-Target:
+### Output naming convention
 
-risk_class_3
-ID/time/meta kept but not used as training features:
+All run artifacts follow:
 
-organization_number
-issuer_name
-period_from
-period_to
-period_year
-rating_agency
-rating_symbol
-rating_normalized
-Important Data Note
-Some variables highlighted in your thesis narrative are not currently in Step 1 data (for example Interest Coverage Ratio, ROA, ESG Score, Renewable Energy Share, Climate Policy Uncertainty).
-Plan should include a later data-enrichment task so importance rankings can include them explicitly.
+`run_{date}_{feature_set}_{model_name}_{split_type}.{ext}`
 
-Ratios and Transformations: Before or After Split
-Yes, ratio engineering is needed and should be explicit.
+Example:
 
-Recommended:
+- `run_2026-03-25_esg_financial_xgboost_stratified.json`
 
-Per-row deterministic ratios (for example debt_to_equity_ratio, carbon_intensity): compute before split (no leakage).
-Any operation that learns from global distribution (scaling, imputation statistics, PCA): fit on train only, then apply to test.
-Use Z-score standardization for models that benefit from scaling:
-Logistic Regression
-Naive Bayes
-XGBoost optional
-Random Forest not required but okay for consistency
-Train/Test Split Plan
-Use two split strategies:
+### Generated outputs
 
-Primary simple split for easy explanation
-80/20 stratified split on risk_class_3
-random_state = 42
-Robustness split to reduce issuer leakage risk
-Grouped split by organization_number
-Keep train/test issuers disjoint
-Report both results, use grouped result as stronger evidence
-This keeps communication simple while addressing a major methodological risk.
+- `outputs/01_splits`: split index files
+- `outputs/02_trained_models`: serialized model pipelines (`.joblib`)
+- `outputs/03_metrics`: per-run metrics JSON + `run_summary_all.csv`
+- `outputs/04_plots`: confusion matrix plots
+- `outputs/05_feature_importance`: coefficients/importances
+- `outputs/06_predictions`: per-row predictions and class probabilities
+- `outputs/07_reports`: run comparison reports
 
-Class Imbalance Handling
-From data/modeling_dataset_step1_diagnostics.json, High Yield is minority.
-Plan:
+### Current Step 2 run status
 
-Baseline: class_weight = balanced where supported
-Secondary: train-set-only oversampling (SMOTE or random oversampling)
-Compare both and keep the better validated setup
-Evaluation Outputs (Per Model x Feature Set x Split Type)
+- Completed runs: `24/24`
+- Matrix: `3 feature sets x 4 models x 2 split strategies`
 
-Metrics JSON/CSV
-accuracy
-macro precision
-macro recall
-macro F1
-weighted F1
-one-vs-rest ROC-AUC (macro)
-Confusion matrix image
+Top runs by macro F1 are written to:
 
-Per-row predictions CSV
+- [outputs/07_reports/top_runs_by_f1.md](outputs/07_reports/top_runs_by_f1.md)
 
-true label
-predicted label
-class probabilities
-Explainability artifacts
-Logistic Regression coefficients
-Random Forest feature importances
-XGBoost feature importances
-SHAP summary for tree models (optional in first pass, recommended in second pass)
-Run summary markdown
-Best model by macro F1
-Best model by ROC-AUC
-Performance delta across ESG-only vs Financial-only vs Combined
-Execution Matrix
-Total planned runs:
+Full run summary table:
 
-3 feature sets x 4 models x 2 split types = 24 runs
-Start simple:
+- [outputs/03_metrics/run_summary_all.csv](outputs/03_metrics/run_summary_all.csv)
 
-Do 12 runs on primary stratified split
-Add 12 grouped robustness runs after baseline is stable
-Definition of Done for Step 2
+### Data and preprocessing notes
 
-All 24 runs completed without failures
-Reproducible outputs saved to structured folders
-One comparison table across all runs
-One explainability table listing top drivers per best model
-Clear answer to:
-Does ESG-only beat financial-only?
-Does ESG + financial beat both?
-Which model family is strongest under class imbalance and grouped split?
+- Per-row deterministic ratio features (e.g., `debt_to_equity_ratio`, `carbon_intensity`) are already included from Step 1.
+- Imputation is performed with median values.
+- Standardization is applied for Logistic Regression, Naive Bayes, and XGBoost.
+- `class_weight='balanced'` is applied where supported, and weighted fitting is used for XGBoost.
+
+### Extension note
+
+The Step 2 framework is ready for additional variables (Interest Coverage Ratio, ROA, ESG Score, Renewable Energy Share, Climate Policy Uncertainty) once added to the curated dataset.
