@@ -142,3 +142,46 @@ python3 download_curated_rated_esg_dataset.py \
   --coverage-mode max_rows \
   --require-normalized-target \
   --output data/curated_rated_esg_dataset.csv
+```
+
+## Step 1 Implementation (Completed)
+
+Run the Step 1 preprocessing pipeline:
+
+```bash
+python3 step1_build_three_class_dataset.py
+```
+
+This script performs all Step 1 tasks:
+
+1. Confirms non-null coverage for `siI_RatingNormalized`.
+2. Removes rows missing required target/feature inputs.
+3. Checks and resolves duplicate issuer-year rows.
+4. Maps normalized ratings to a deterministic 3-class target.
+5. Finalizes a transparent financial+ESG factor set.
+6. Exports cleaned modelling data and diagnostics.
+
+Generated artifacts:
+
+- [data/modeling_dataset_step1.csv](data/modeling_dataset_step1.csv): Clean dataset with ID columns, time columns, selected factors, and `risk_class_3` target.
+- [data/modeling_dataset_step1_diagnostics.json](data/modeling_dataset_step1_diagnostics.json): Data quality and class balance diagnostics.
+- [data/feature_dictionary_step1.json](data/feature_dictionary_step1.json): Feature definitions and source mapping for reproducibility.
+
+Current run summary:
+
+- Input rows: 438
+- Non-null `siI_RatingNormalized`: 438 (100.0%)
+- Rows after required-field filtering: 382
+- Duplicate issuer-year rows detected: 0
+- Final modelling rows: 382
+
+Class balance (3-class target):
+
+- Investment Grade Low Risk: 188 (49.2%)
+- Investment Grade High Risk: 157 (41.1%)
+- High Yield: 37 (9.7%)
+
+Imbalance decision:
+
+- Use `class_weight='balanced'` for baseline model training.
+- Evaluate oversampling (for example SMOTE) in cross-validated experiments.
