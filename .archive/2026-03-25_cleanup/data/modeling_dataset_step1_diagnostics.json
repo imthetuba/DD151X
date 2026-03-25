@@ -1,0 +1,179 @@
+{
+  "input_file": "data/curated_rated_esg_dataset_max_rows.csv",
+  "output_file": "data/modeling_dataset_step1.csv",
+  "feature_dictionary_file": "data/feature_dictionary_step1.json",
+  "risk_class_mapping": {
+    "1-2": "Investment Grade Low Risk",
+    "3": "Investment Grade High Risk",
+    "4-6": "High Yield"
+  },
+  "quality_summary": {
+    "rows_input": 438,
+    "rows_with_non_null_target": 438,
+    "target_non_null_coverage": 1.0,
+    "rows_after_required_fields": 382,
+    "duplicate_issuer_year_rows_detected": 0,
+    "rows_after_dedup_and_mapping": 382
+  },
+  "missing_required_examples": [
+    {
+      "OrganizationNumber": "125404713",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199933965",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199933965",
+      "To": "2025-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199934341",
+      "To": "2025-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199934899",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199934996",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199934996",
+      "To": "2025-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199935240",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199936200",
+      "To": "2025-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199936204",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199936761",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199936813",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199937682",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938055",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938226",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938245",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938433",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938433",
+      "To": "2025-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938563",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    },
+    {
+      "OrganizationNumber": "199938981",
+      "To": "2024-12-31",
+      "missing": [
+        "TotalGHGEmission"
+      ]
+    }
+  ],
+  "duplicate_issuer_year_examples": [],
+  "class_balance": {
+    "counts": {
+      "Investment Grade Low Risk": 188,
+      "Investment Grade High Risk": 157,
+      "High Yield": 37
+    },
+    "proportions": {
+      "Investment Grade Low Risk": 0.49214659685863876,
+      "Investment Grade High Risk": 0.4109947643979058,
+      "High Yield": 0.0968586387434555
+    },
+    "recommended_class_weights": {
+      "Investment Grade Low Risk": 0.6773049645390071,
+      "Investment Grade High Risk": 0.8110403397027601,
+      "High Yield": 3.4414414414414414
+    },
+    "recommendation": "Class imbalance detected: use class_weight='balanced' and test SMOTE/oversampling"
+  }
+}

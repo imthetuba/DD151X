@@ -25,11 +25,14 @@ The project addresses two dimensions:
 
 Data is collected from Stamdata feeds and merged into a curated modelling table.
 
-Current repository artifacts include:
+For experiment execution, the active runtime dataset is:
 
-- Curated dataset: [data/curated_rated_esg_dataset_max_rows.csv](data/curated_rated_esg_dataset_max_rows.csv)
-- Latest raw feed downloads: [data/run_latest](data/run_latest)
-- Data collection and curation script: [download_curated_rated_esg_dataset.py](download_curated_rated_esg_dataset.py)
+- [data/modeling_dataset.csv](data/modeling_dataset.csv)
+
+Legacy/raw/generated artifacts have been moved to:
+
+- [.archive/2026-03-25_cleanup](.archive/2026-03-25_cleanup)
+- Data collection and curation script remains available in [download_curated_rated_esg_dataset.py](download_curated_rated_esg_dataset.py)
 
 The current curated CSV contains issuer-level observations with:
 
@@ -124,7 +127,8 @@ This supports an explainable AI perspective where both financial and ESG drivers
 ## Repository Structure (current)
 
 - [download_curated_rated_esg_dataset.py](download_curated_rated_esg_dataset.py): Pulls Stamdata feeds, matches ratings with ESG rows, exports curated CSV.
-- [data](data): Curated dataset and latest run artifacts.
+- [data](data): Active runtime dataset for experiments.
+- [.archive/2026-03-25_cleanup](.archive/2026-03-25_cleanup): Legacy/raw/generated artifacts not needed to run experiments.
 - [Report](Report): Thesis manuscript sections (introduction, literature, theory, methodology).
 - [README.md](README.md): Project overview and execution plan.
 
@@ -161,11 +165,13 @@ This script performs all Step 1 tasks:
 5. Finalizes a transparent financial+ESG factor set.
 6. Exports cleaned modelling data and diagnostics.
 
-Generated artifacts:
+Generated artifacts (archived):
 
-- [data/modeling_dataset_step1.csv](data/modeling_dataset_step1.csv): Clean dataset with ID columns, time columns, selected factors, and `risk_class_3` target.
-- [data/modeling_dataset_step1_diagnostics.json](data/modeling_dataset_step1_diagnostics.json): Data quality and class balance diagnostics.
-- [data/feature_dictionary_step1.json](data/feature_dictionary_step1.json): Feature definitions and source mapping for reproducibility.
+- [.archive/2026-03-25_cleanup/data/modeling_dataset_step1.csv](.archive/2026-03-25_cleanup/data/modeling_dataset_step1.csv): Step 1 base dataset (pre-Yahoo enrichment).
+- [data/modeling_dataset.csv](data/modeling_dataset.csv): Canonical modeling dataset used by experiments.
+- [.archive/2026-03-25_cleanup/data/modeling_dataset_step1_diagnostics.json](.archive/2026-03-25_cleanup/data/modeling_dataset_step1_diagnostics.json): Step 1 quality diagnostics.
+- [.archive/2026-03-25_cleanup/data/modeling_dataset_diagnostics.json](.archive/2026-03-25_cleanup/data/modeling_dataset_diagnostics.json): Canonical dataset diagnostics snapshot.
+- [.archive/2026-03-25_cleanup/data/feature_dictionary_step1.json](.archive/2026-03-25_cleanup/data/feature_dictionary_step1.json): Feature dictionary snapshot (including `yf_*` enriched ratio features).
 
 Current run summary:
 
@@ -217,7 +223,7 @@ Step 2 is now implemented as a config-driven training pipeline for all required 
 
 ### Key files
 
-- [configs/experiment_config.yaml](configs/experiment_config.yaml) IMPORTANT THIS IS ALL THE CONFIG FOR THE EXPERIMENT
+- [configs/experiment_config.yaml](configs/experiment_config.yaml): single source of truth for all experiments (financial, ESG, and Yahoo-enriched feature sets)
 - [src/run_experiments.py](src/run_experiments.py)
 - [src/data/load_dataset.py](src/data/load_dataset.py)
 - [src/data/split_data.py](src/data/split_data.py)
@@ -226,7 +232,18 @@ Step 2 is now implemented as a config-driven training pipeline for all required 
 - [src/models/train_models.py](src/models/train_models.py)
 - [src/evaluation/evaluate_models.py](src/evaluation/evaluate_models.py)
 
-### Run Step 2
+### Partner workflow (minimal)
+
+1. Place the canonical dataset in [data/modeling_dataset.csv](data/modeling_dataset.csv).
+2. Install dependencies.
+3. Run experiments with the main config.
+
+```bash
+pip install -r requirements.txt
+python src/run_experiments.py --config configs/experiment_config.yaml
+```
+
+### Run Step 2 experiments
 
 ```bash
 python src/run_experiments.py --config configs/experiment_config.yaml
@@ -254,16 +271,8 @@ Example:
 
 ### Current Step 2 run status
 
-- Completed runs: `24/24`
-- Matrix: `3 feature sets x 4 models x 2 split strategies`
-
-Top runs by macro F1 are written to:
-
-- [outputs/07_reports/top_runs_by_f1.md](outputs/07_reports/top_runs_by_f1.md)
-
-Full run summary table:
-
-- [outputs/03_metrics/run_summary_all.csv](outputs/03_metrics/run_summary_all.csv)
+- Current repository is prepared for execution from [data/modeling_dataset.csv](data/modeling_dataset.csv).
+- Historical run outputs are archived under [.archive/2026-03-25_cleanup/outputs](.archive/2026-03-25_cleanup/outputs).
 
 ### Data and preprocessing notes
 

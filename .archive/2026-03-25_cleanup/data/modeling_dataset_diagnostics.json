@@ -1,0 +1,140 @@
+{
+  "dataset_file": "data/modeling_dataset.csv",
+  "feature_dictionary_file": "data/feature_dictionary_step1.json",
+  "experiment_config_file": "configs/experiment_config.yaml",
+  "shape": {
+    "rows": 382,
+    "columns": 46
+  },
+  "required_column_check": {
+    "required_columns": [
+      "organization_number",
+      "period_year",
+      "risk_class_3"
+    ],
+    "missing_columns": [],
+    "passed": true
+  },
+  "duplicate_key_check": {
+    "key_columns": [
+      "organization_number",
+      "period_year"
+    ],
+    "duplicate_rows": 0,
+    "passed": true
+  },
+  "period_year_range": {
+    "min": 2024,
+    "max": 2025,
+    "unique_years": [
+      2024,
+      2025
+    ]
+  },
+  "class_balance": {
+    "counts": {
+      "Investment Grade Low Risk": 188,
+      "Investment Grade High Risk": 157,
+      "High Yield": 37
+    },
+    "proportions": {
+      "Investment Grade Low Risk": 0.49214659685863876,
+      "Investment Grade High Risk": 0.4109947643979058,
+      "High Yield": 0.0968586387434555
+    }
+  },
+  "yahoo_ratio_coverage": {
+    "ratio_columns": [
+      "yf_current_ratio",
+      "yf_quick_ratio",
+      "yf_cash_ratio",
+      "yf_debt_to_assets",
+      "yf_debt_to_equity",
+      "yf_equity_ratio",
+      "yf_interest_coverage",
+      "yf_gross_margin",
+      "yf_operating_margin",
+      "yf_net_margin",
+      "yf_roa",
+      "yf_roe",
+      "yf_asset_turnover"
+    ],
+    "rows_with_any_yf": 199,
+    "rows_without_yf": 183,
+    "non_null_rate_per_column": {
+      "yf_current_ratio": 0.35602094240837695,
+      "yf_quick_ratio": 0.35602094240837695,
+      "yf_cash_ratio": 0.35602094240837695,
+      "yf_debt_to_assets": 0.5209424083769634,
+      "yf_debt_to_equity": 0.518324607329843,
+      "yf_equity_ratio": 0.518324607329843,
+      "yf_interest_coverage": 0.36649214659685864,
+      "yf_gross_margin": 0.35602094240837695,
+      "yf_operating_margin": 0.3717277486910995,
+      "yf_net_margin": 0.5209424083769634,
+      "yf_roa": 0.5209424083769634,
+      "yf_roe": 0.518324607329843,
+      "yf_asset_turnover": 0.5209424083769634
+    }
+  },
+  "missingness_by_feature_set": {
+    "financial_only": {
+      "avg_non_null_rate": 1.0,
+      "min_non_null_rate": 1.0,
+      "max_non_null_rate": 1.0
+    },
+    "financial_enriched": {
+      "avg_non_null_rate": 0.6000581733566027,
+      "min_non_null_rate": 0.35602094240837695,
+      "max_non_null_rate": 1.0
+    },
+    "esg_only": {
+      "avg_non_null_rate": 0.9874345549738222,
+      "min_non_null_rate": 0.8900523560209425,
+      "max_non_null_rate": 1.0
+    },
+    "esg_financial": {
+      "avg_non_null_rate": 0.9905759162303663,
+      "min_non_null_rate": 0.8900523560209425,
+      "max_non_null_rate": 1.0
+    },
+    "esg_financial_enriched": {
+      "avg_non_null_rate": 0.7761383468189752,
+      "min_non_null_rate": 0.35602094240837695,
+      "max_non_null_rate": 1.0
+    }
+  },
+  "step2_input_verification": {
+    "dataset_path_in_config": "data/modeling_dataset.csv",
+    "target_column_in_config": "risk_class_3",
+    "group_column_in_config": "organization_number",
+    "feature_set_compatibility": {
+      "financial_only": {
+        "feature_count": 5,
+        "missing_columns": [],
+        "compatible": true
+      },
+      "financial_enriched": {
+        "feature_count": 18,
+        "missing_columns": [],
+        "compatible": true
+      },
+      "esg_only": {
+        "feature_count": 15,
+        "missing_columns": [],
+        "compatible": true
+      },
+      "esg_financial": {
+        "feature_count": 20,
+        "missing_columns": [],
+        "compatible": true
+      },
+      "esg_financial_enriched": {
+        "feature_count": 33,
+        "missing_columns": [],
+        "compatible": true
+      }
+    },
+    "all_feature_sets_compatible": true
+  }
+}

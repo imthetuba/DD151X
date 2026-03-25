@@ -1,5 +1,5 @@
 dataset:
-  input_csv: data/modeling_dataset_step1.csv
+  input_csv: data/modeling_dataset.csv
   target_column: risk_class_3
   group_column: organization_number
 
@@ -21,6 +21,25 @@ feature_sets:
     - book_value_equity
     - book_value_debt
     - debt_to_equity_ratio
+  financial_enriched:
+    - enterprise_value
+    - revenue
+    - book_value_equity
+    - book_value_debt
+    - debt_to_equity_ratio
+    - yf_current_ratio
+    - yf_quick_ratio
+    - yf_cash_ratio
+    - yf_debt_to_assets
+    - yf_debt_to_equity
+    - yf_equity_ratio
+    - yf_interest_coverage
+    - yf_gross_margin
+    - yf_operating_margin
+    - yf_net_margin
+    - yf_roa
+    - yf_roe
+    - yf_asset_turnover
   esg_only:
     - total_ghg_emission
     - scope1
@@ -58,6 +77,40 @@ feature_sets:
     - female_board
     - male_board
     - female_board_share
+  esg_financial_enriched:
+    - enterprise_value
+    - revenue
+    - book_value_equity
+    - book_value_debt
+    - debt_to_equity_ratio
+    - total_ghg_emission
+    - scope1
+    - scope2_location
+    - carbon_intensity
+    - carbon_target
+    - high_impact_climate_sector
+    - fossil_fuel_sector
+    - report_biodiversity
+    - negative_affect_biodiversity
+    - exp_controversial_weapons
+    - exp_controversial_products
+    - exp_debt_collection_or_loans
+    - female_board
+    - male_board
+    - female_board_share
+    - yf_current_ratio
+    - yf_quick_ratio
+    - yf_cash_ratio
+    - yf_debt_to_assets
+    - yf_debt_to_equity
+    - yf_equity_ratio
+    - yf_interest_coverage
+    - yf_gross_margin
+    - yf_operating_margin
+    - yf_net_margin
+    - yf_roa
+    - yf_roe
+    - yf_asset_turnover
 
 models:
   logistic_regression:

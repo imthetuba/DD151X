@@ -1,0 +1,197 @@
+{
+  "organization_number": {
+    "type": "identifier",
+    "description": "Issuer organization number",
+    "source": "OrganizationNumber"
+  },
+  "period_year": {
+    "type": "time",
+    "description": "Observation year extracted from period end/start",
+    "source": "To/From"
+  },
+  "rating_normalized": {
+    "type": "target_input",
+    "description": "Normalized credit rating (numeric scale)",
+    "source": "siI_RatingNormalized"
+  },
+  "risk_class_3": {
+    "type": "target",
+    "description": "Three-class target: IG low risk, IG high risk, high yield",
+    "source": "Engineered from rating_normalized"
+  },
+  "debt_to_equity_ratio": {
+    "type": "financial_derived",
+    "description": "BookValueDebt / BookValueEquity",
+    "source": "BookValueDebt, BookValueEquity"
+  },
+  "carbon_intensity": {
+    "type": "esg_derived",
+    "description": "TotalGHGEmission / Revenue",
+    "source": "TotalGHGEmission, Revenue"
+  },
+  "enterprise_value": {
+    "type": "financial",
+    "description": "Enterprise value",
+    "source": "EnterpriseValue"
+  },
+  "revenue": {
+    "type": "financial",
+    "description": "Revenue",
+    "source": "Revenue"
+  },
+  "book_value_equity": {
+    "type": "financial",
+    "description": "Book value equity",
+    "source": "BookValueEquity"
+  },
+  "book_value_debt": {
+    "type": "financial",
+    "description": "Book value debt",
+    "source": "BookValueDebt"
+  },
+  "yf_current_ratio": {
+    "type": "financial_yahoo_ratio",
+    "description": "Current assets divided by current liabilities (Yahoo statements)",
+    "source": "Yahoo Finance balance sheet"
+  },
+  "yf_quick_ratio": {
+    "type": "financial_yahoo_ratio",
+    "description": "(Current assets minus inventory) divided by current liabilities (Yahoo statements)",
+    "source": "Yahoo Finance balance sheet"
+  },
+  "yf_cash_ratio": {
+    "type": "financial_yahoo_ratio",
+    "description": "Cash and cash equivalents divided by current liabilities (Yahoo statements)",
+    "source": "Yahoo Finance balance sheet"
+  },
+  "yf_debt_to_assets": {
+    "type": "financial_yahoo_ratio",
+    "description": "Total debt (or total liabilities fallback) divided by total assets (Yahoo statements)",
+    "source": "Yahoo Finance balance sheet"
+  },
+  "yf_debt_to_equity": {
+    "type": "financial_yahoo_ratio",
+    "description": "Total debt (or total liabilities fallback) divided by stockholders equity (Yahoo statements)",
+    "source": "Yahoo Finance balance sheet"
+  },
+  "yf_equity_ratio": {
+    "type": "financial_yahoo_ratio",
+    "description": "Stockholders equity divided by total assets (Yahoo statements)",
+    "source": "Yahoo Finance balance sheet"
+  },
+  "yf_interest_coverage": {
+    "type": "financial_yahoo_ratio",
+    "description": "Operating income divided by absolute interest expense (Yahoo statements)",
+    "source": "Yahoo Finance income statement"
+  },
+  "yf_gross_margin": {
+    "type": "financial_yahoo_ratio",
+    "description": "Gross profit divided by revenue (Yahoo statements)",
+    "source": "Yahoo Finance income statement"
+  },
+  "yf_operating_margin": {
+    "type": "financial_yahoo_ratio",
+    "description": "Operating income divided by revenue (Yahoo statements)",
+    "source": "Yahoo Finance income statement"
+  },
+  "yf_net_margin": {
+    "type": "financial_yahoo_ratio",
+    "description": "Net income divided by revenue (Yahoo statements)",
+    "source": "Yahoo Finance income statement"
+  },
+  "yf_roa": {
+    "type": "financial_yahoo_ratio",
+    "description": "Net income divided by total assets (Yahoo statements)",
+    "source": "Yahoo Finance income statement and balance sheet"
+  },
+  "yf_roe": {
+    "type": "financial_yahoo_ratio",
+    "description": "Net income divided by stockholders equity (Yahoo statements)",
+    "source": "Yahoo Finance income statement and balance sheet"
+  },
+  "yf_asset_turnover": {
+    "type": "financial_yahoo_ratio",
+    "description": "Revenue divided by total assets (Yahoo statements)",
+    "source": "Yahoo Finance income statement and balance sheet"
+  },
+  "total_ghg_emission": {
+    "type": "esg",
+    "description": "Total GHG emissions",
+    "source": "TotalGHGEmission"
+  },
+  "scope1": {
+    "type": "esg",
+    "description": "Scope 1 emissions",
+    "source": "Scope1"
+  },
+  "scope2_location": {
+    "type": "esg",
+    "description": "Scope 2 emissions (location-based)",
+    "source": "Scope2Location"
+  },
+  "carbon_target": {
+    "type": "esg_flag",
+    "description": "Company has carbon target",
+    "source": "CarbonTarget"
+  },
+  "high_impact_climate_sector": {
+    "type": "esg_flag",
+    "description": "Issuer in high impact climate sector",
+    "source": "HighImpactClimateSector"
+  },
+  "fossil_fuel_sector": {
+    "type": "esg_flag",
+    "description": "Issuer in fossil fuel sector",
+    "source": "FossilFuelSector"
+  },
+  "report_biodiversity": {
+    "type": "esg_flag",
+    "description": "Company reports biodiversity information",
+    "source": "ReportBiodiversity"
+  },
+  "negative_affect_biodiversity": {
+    "type": "esg_flag",
+    "description": "Company negatively affects biodiversity",
+    "source": "NegativeAffectBiodiversity"
+  },
+  "female_board_share": {
+    "type": "governance_derived",
+    "description": "Female board members / (female + male board members)",
+    "source": "FemaleBoard, MaleBoard"
+  },
+  "female_board": {
+    "type": "governance",
+    "description": "Count of female board members",
+    "source": "FemaleBoard"
+  },
+  "male_board": {
+    "type": "governance",
+    "description": "Count of male board members",
+    "source": "MaleBoard"
+  },
+  "exp_controversial_weapons": {
+    "type": "esg_flag",
+    "description": "Exposure to controversial weapons",
+    "source": "ExpControversialWeapons"
+  },
+  "exp_controversial_products": {
+    "type": "esg_flag",
+    "description": "Exposure to controversial products",
+    "source": "ExpControversialProducts"
+  },
+  "exp_debt_collection_or_loans": {
+    "type": "esg_flag",
+    "description": "Exposure to debt collection or loans",
+    "source": "ExpDebtCollectionOrLoans"
+  },
+  "is_listed": {
+    "type": "metadata_flag",
+    "description": "Issuer is listed",
+    "source": "IsListed"
+  },
+  "is_consolidated_corp_account": {
+    "type": "metadata_flag",
+    "description": "Consolidated corporate account flag",
+    "source": "IsConsolidatedCorpAccount"
+  }
+}

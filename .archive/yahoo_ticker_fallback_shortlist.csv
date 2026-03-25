@@ -1,0 +1,142 @@
+organization_number,issuer_name,has_candidates,best_symbol,best_exchange,best_shortname,best_score,alternatives
+199936189,AL Sydbank A/S,1,ALSYDB.CO,CPH,AL Sydbank A/S,200,TM2.F [FRA] || 0MGE.IL [IOB]
+260002879,Coloplast A/S,1,COLO-B.CO,CPH,Coloplast B A/S,200,CBH.F [FRA] || CBHD.F [FRA]
+147805458,DFDS A/S,1,DFDS.CO,CPH,DFDS A/S,200,29K.F [FRA] || 0RB3.IL [IOB]
+199936490,DSV A/S,1,DSV.CO,CPH,DSV A/S,200,DS8.F [FRA] || DS81.F [FRA]
+199936751,Danske Bank A/S,1,DANSKE.CO,CPH,Danske Bank A/S,200,DSN0.MU [MUN] || 0NVC.IL [IOB]
+199939675,H. Lundbeck A/S,1,HLUN-A.CO,CPH,H. Lundbeck A/S A,200,HLUN-B.CO [CPH] || LDBA.F [FRA]
+199936174,Jyske Bank A/S,1,JYSK.CO,CPH,Jyske Bank A/S,200,JYS1.DU [DUS] || JYSKC.XD [DXE]
+199936757,Nordea Bank Abp,1,NDA-DK.CO,CPH,Nordea Bank Abp,200,NDA-FI.HE [HEL] || 04Q.F [FRA]
+260002713,Novo Nordisk A/S,1,NOVO-B.CO,CPH,Novo Nordisk B A/S,200,0TDD.L [LSE] || NVO [NYQ]
+199939732,Scandinavian Tobacco Group A/S,1,STG.CO,CPH,Scandinavian Tobacco Group A/S,200,8ZI.DU [DUS] || STGC.XC [CXE]
+199936686,Vestas Wind Systems A/S,1,VWS.CO,CPH,Vestas Wind Systems A/S,200,VWSB.DU [DUS] || VWSB.DE [GER]
+937903502,Aasen Sparebank,1,AASB.OL,OSL,AASEN SPAREBANK,198,
+937885644,Aurskog Sparebank,1,AURG.OL,OSL,AURSKOG SPAREBANK,198,0DNT.L [LSE] || AURGO.XD [DXE]
+998753562,Borregaard ASA,1,BRGO.OL,OSL,Borregaard ASA,198,BO4.DU [DUS] || BO4.MU [MUN]
+984851006,DNB Bank ASA,1,DNB.OL,OSL,DNB BANK ASA,198,D1NC.F [FRA] || D1NC.HA [HAN]
+911382008,Elkem ASA,1,ELKO.OL,OSL,Elkem ASA,198,1DP.MU [MUN] || ELK.OL [OSL]
+811413682,Elopak ASA,1,ELO.OL,OSL,ELOPAK ASA,198,0AB3.IL [IOB] || ELOO.XC [CXE]
+837895502,Haugesund Sparebank,1,HGSB.OL,OSL,HAUGESUND SPAREBANK,198,Y7I.F [FRA]
+937901291,Melhus Sparebank,1,MELG.OL,OSL,MELHUS SPAREBANK,198,MELGO.XD [DXE] || K15.SG [STU]
+966011726,Nordic Semiconductor ASA,1,NODO.OL,OSL,Nordic Semiconductor ASA,198,N0S0.F [FRA] || N0S.MU [MUN]
+990906475,Pareto Bank ASA,1,PARBO.OL,OSL,Pareto Bank ASA,198,0RI3.L [LSE] || 8PB.F [FRA]
+915691161,Rogaland Sparebank,1,ROGS.OL,OSL,ROGALAND SPAREBANK,198,ROGSO.XD [DXE] || 0FWN.L [LSE]
+937885911,Romerike Sparebank,1,ROMER.OL,OSL,ROMERIKE SPAREBANK,198,92I.F [FRA] || 92I.DU [DUS]
+960514718,SalMar ASA,1,SALMO.OL,OSL,SalMar ASA,198,JEP.F [FRA] || SALM.OL [OSL]
+837889812,Skue Sparebank,1,SKUE.OL,OSL,SKUE SPAREBANK,198,0FE2.L [LSE] || SKUEO.XD [DXE]
+937889275,SpareBank 1 Ringerike Hadeland,1,RING.OL,OSL,SPAREBANK 1 RINGERIKE HADELAND,198,0N01.L [LSE] || RINGO.XD [DXE]
+937901003,SpareBank 1 SMN,1,MING.OL,OSL,SPAREBANK 1 SMN,198,SJI.F [FRA] || SJI.MU [MUN]
+937904029,Sparebank 1 Helgeland,1,HELG.OL,OSL,SPAREBANK 1 HELGELAND,198,0EO8.L [LSE] || HELGO.XD [DXE]
+937905378,Sparebank 68 grader Nord,1,SB68.OL,OSL,SPAREBANK 68 GRADER NORD,198,
+832554332,Sparebanken Norge,1,SBNOR.OL,OSL,SPAREBANKEN NORGE,198,0G67.L [LSE] || K7I.F [FRA]
+953299216,Storebrand Bank ASA,1,STORB77-PRO-ESG.OL,OSL,Storebrand Bank ASA 25/28 FRN,198,STORB72-PRO.OL [OSL] || STORB76-PRO-ESG.OL [OSL]
+976695372,TGS ASA,1,TGS.OL,OSL,TGS ASA,198,TGC.DU [DUS] || TGSGY [OQX]
+937900775,Tinde Sparebank,1,TINDE.OL,OSL,TINDE SPAREBANK,198,
+933739384,Vend Marketplaces ASA,1,VEND.OL,OSL,VEND MARKETPLACES ASA,198,XPGB.F [FRA] || 0R9I.IL [IOB]
+199934341,Citycon Oyj,1,CTY1S.HE,HEL,Citycon Oyj,196,TY2B.DU [DUS] || TY2B.MU [MUN]
+199936153,Metso Oyj,1,METSO.HE,HEL,Metso Oyj,196,M6Q.DU [DUS] || METSOH.XC [CXE]
+199936520,Metsä Board Oyj,1,METSB.HE,HEL,Metsä Board Oyj B,196,METSA.HE [HEL] || 0O79.L [LSE]
+199934406,Outokumpu Oyj,1,OUT1V.HE,HEL,Outokumpu Oyj,196,OUTA.F [FRA] || OUT1VH.XC [CXE]
+199937293,Kvika banki hf.,1,KVIKA.IC,ICE,Kvika banki hf.,194,
+199935100,Aktia Bank Abp,1,0QF8.L,LSE,AKTIA BANK ABP AKTIA ORD SHS,186,
+260003994,National Grid PLC,1,NG.L,LSE,NATIONAL GRID PLC ORD 12 204/47,186,NGG [NYQ] || NNGD.MU [MUN]
+199936681,Nokia Oyj,1,0K8D.L,LSE,NOKIA OYJ NOKIA ADR REP ONE ORD,186,NOAA.MU [MUN] || 0HAF.IL [IOB]
+199938770,Vodafone Group Plc,1,VOD.L,LSE,VODAFONE GROUP PLC ORD USD0.20,186,VOD [NMS] || VODI.DE [GER]
+260004739,Ferrovial SE,1,FER.AS,AMS,FERROVIAL SE,184,FER [NMS] || FERE.XD [DXE]
+260005045,ADOBE INC.,1,ADBE,NMS,Adobe Inc.,182,ADBD.XC [CXE] || ADBD.XD [DXE]
+199938389,Banco Bilbao Vizcaya Argentaria S.A.,1,BBVA,NYQ,Banco Bilbao Vizcaya Argentaria,182,BBVA.SG [STU] || BBVD.BA [BUE]
+199938138,Deutsche Bank AG,1,DB,NYQ,Deutsche Bank AG,182,DBK.F [FRA] || DBK.DE [GER]
+260005063,Elevance Health Inc,1,ELV,NYQ,"Elevance Health, Inc.",182,A58.F [FRA] || A58.DU [DUS]
+923609016,Equinor ASA,1,EQNR,NYQ,Equinor ASA,182,DNQ.F [FRA] || EQNR.OL [OSL]
+136282765,Golar LNG Limited,1,GLNG,NMS,Golar LNG Limited,182,0HDY.L [LSE] || G2O.F [FRA]
+260005070,Keysight Technologies Inc,1,KEYS,NYQ,Keysight Technologies Inc.,182,1KT.F [FRA] || 1KT.DU [DUS]
+260005071,Microsoft Corporation,1,MSFT,NMS,Microsoft Corporation,182,MSF0.F [FRA] || MSFT.BA [BUE]
+101187763,Millicom International Cellular S.A.,1,TIGO,NMS,Millicom International Cellular,182,M4M1.F [FRA] || M4M1.HM [HAM]
+260005970,Oracle Corporation,1,ORCL,NYQ,Oracle Corporation,182,ORCL-PD [NYQ] || ORCLD.BA [BUE]
+260005042,SAP SE,1,SAP,NYQ,SAP  SE,182,SAPA.MU [MUN] || 0NW4.IL [IOB]
+260005881,The Walt Disney Company,1,DIS,NYQ,Walt Disney Company (The),182,DISN.BA [BUE] || 1DIS.MI [MIL]
+260005897,Thermo Fisher Scientific Inc,1,TMO,NYQ,Thermo Fisher Scientific Inc,182,TN80.F [FRA] || TN8.DU [DUS]
+260005893,UnitedHealth Group Incorporated,1,UNH,NYQ,UnitedHealth Group Incorporated,182,UNH.F [FRA] || UNH.SN [SGO]
+260005036,VISA Inc.,1,V,NYQ,Visa Inc.,182,3V6.F [FRA] || V.BA [BUE]
+199939274,ALM Brand A/S,1,1AM.F,FRA,Alm. Brand A/S                N,180,0DJI.IL [IOB] || ALMBC.XD [DXE]
+886581432,Aker ASA,1,FKM.F,FRA,Aker ASA                      N,180,0MJX.IL [IOB] || AKER.OL [OSL]
+199937403,Alimentation Couche-Tard Inc.,1,CJA1.F,FRA,Alimentation Couche-Tard Inc. R,180,CJA1.MU [MUN] || CJA1.DU [DUS]
+920237126,Atea ASA,1,MKL.F,FRA,Atea ASA                      N,180,MKL.MU [MUN] || ATEA.OL [OSL]
+929975200,Austevoll Seafood ASA,1,Z85.F,FRA,Austevoll Seafood ASA         N,180,Z85.MU [MUN] || Z85.DU [DUS]
+252536604,Commerzbank AG,1,ZZMS.F,FRA,Commerzbank AG                N,180,CBK.DE [GER] || CBK.VI [VIE]
+999296432,Entra ASA,1,2EN.F,FRA,Entra ASA                     N,180,ENTRAO.XD [DXE] || ENTRA.OL [OSL]
+199934805,Fortum Oyj,1,FOT.F,FRA,FORTUM OYJ                    R,180,FOT.DU [DUS] || FORTMH.XC [CXE]
+995568217,Gjensidige Forsikring ASA,1,XGJ.F,FRA,Gjensidige Forsikring ASA     N,180,GJF.OL [OSL] || 0OJC.IL [IOB]
+199938867,H & M Hennes & Mauritz AB,1,HMSB.F,FRA,H & M HENNES & MAURITZ AB     N,180,HMSA.MU [MUN] || HMSB.SG [STU]
+260003730,KRUK S.A.,1,83I.F,FRA,Kruk S.A.                     I,180,83I.MU [MUN] || 83I.DU [DUS]
+964118191,Mowi ASA,1,PND.F,FRA,Mowi ASA                      N,180,PNDA.MU [MUN] || MOWI.OL [OSL]
+914778271,Norsk Hydro ASA,1,NOHA.F,FRA,NORSK HYDRO ASA               N,180,NOH1.HM [HAM] || NHY.OL [OSL]
+260005685,Novonesis A/S,1,NZM2.F,FRA,Novonesis A/S                 N,180,NZM.F [FRA] || NZM2.DU [DUS]
+910747711,Orkla ASA,1,OKL.F,FRA,Orkla ASA                     N,180,OKL.DU [DUS] || 0FIN.IL [IOB]
+985279721,Protector Forsikring ASA,1,PR40.F,FRA,Protector Forsikring ASA      N,180,PROT.OL [OSL] || PROTO.XC [CXE]
+260003987,RWE AG,1,RWE.F,FRA,RWE AG                        I,180,RWE.DE [GER] || RWEA.SG [STU]
+952706365,SpareBank 1 Nord-Norge,1,93S.F,FRA,SpareBank 1 Nord-Norge        N,180,93S.MU [MUN] || NONGO.XC [CXE]
+982463718,Telenor ASA,1,TEQ.F,FRA,Telenor ASA                   N,180,TEQ.DU [DUS] || TEL.OL [OSL]
+260003089,Vonovia SE,1,VNAA.F,FRA,Vonovia SE                    N,180,VNA.F [FRA] || VNAD.XC [CXE]
+989795848,Aker BP ASA,1,ARC.MU,MUN,Aker BP ASA                   N,178,AKRBP.OL [OSL] || 0M5J.IL [IOB]
+199938502,Bayer AG,1,BAYN.MU,MUN,Bayer AG                      N,178,BAYND.XD [DXE] || BAYN.DE [GER]
+942593821,Kongsberg Automotive ASA,1,K3A.MU,MUN,Kongsberg Automotive ASA      N,178,KOA.OL [OSL] || KOAO.XD [DXE]
+199936672,Mercedes-Benz Group AG,1,MBG.MU,MUN,Mercedes-Benz Group AG        N,178,MBG.DE [GER] || MBGYY [PNK]
+199934503,Neste Oyj,1,NEF.MU,MUN,Neste Oyj                     R,178,0O46.IL [IOB] || NESTE.HE [HEL]
+199934554,Sampo Oyj,1,SMP0.MU,MUN,Sampo OYJ                     R,178,SMP0.DU [DUS] || SAMPOH.XD [DXE]
+916300484,Storebrand ASA,1,SKT.DU,DUS,STOREBRAND ASA                N,178,STBO.XC [CXE] || STB.OL [OSL]
+927124238,Tomra Systems ASA,1,TMRA.MU,MUN,Tomra Systems ASA             N,178,TMRA.HM [HAM] || TOM.OL [OSL]
+199938860,Volkswagen AG,1,VOWA.MU,MUN,Volkswagen AG                 N,178,VOW.DE [GER] || VOW3.DE [GER]
+986228608,Yara International ASA,1,IU20.MU,MUN,Yara International ASA        N,178,YAR.OL [OSL] || YARO.XC [CXE]
+260004949,Aktieselskabet Schouw & Co.,1,SCHO.CO,CPH,Schouw & Co. A/S,166,5RF.F [FRA] || 5RF.MU [MUN]
+943753709,Kongsberg Gruppen ASA,1,KOG.OL,OSL,KONGSBERG GRUPPEN,164,KOGO.XD [DXE] || KOZ1.F [FRA]
+199936679,UPM-Kymmene Oyj,1,UPM.HE,HEL,UPM-Kymmene Corporation,162,UPMH.XD [DXE] || UPMH.XC [CXE]
+199937853,BNP Paribas SA,1,0HB5.IL,IOB,BNP PARIBAS SA BNP PARIBAS ORD,160,BNP.PA [PAR] || BNPH.F [FRA]
+108520479,Corem Property Group AB (publ),1,BJV0.F,FRA,Corem Property Group AB       R,160,BJV1.F [FRA] || BJV.F [FRA]
+199934619,Elisa Oyj,1,ELISAH.XC,CXE,Elisa Oyj,158,ELISA.HE [HEL] || EIA.SG [STU]
+260005043,Kering SA,1,KERP.XD,DXE,Kering SA,158,KER.PA [PAR] || PPX.F [FRA]
+199935978,Kojamo Oyj,1,KOJAMH.XD,DXE,Kojamo Oyj,158,KOJAF [PNK] || V4OC.MU [MUN]
+260005954,McCormick & Company Inc,1,MKC,NYQ,"McCormick & Company, Incorporat",148,MKC-V [NYQ] || MCX.F [FRA]
+199938755,Allianz SE,1,ALV.DE,GER,Allianz SE                    v,140,US0188201000.SG [STU] || ALV.HA [HAN]
+199938697,Epiroc Aktiebolag,1,EPOAY,PNK,Epiroc Aktiebolag,135,EPIAF [PNK]
+199938797,Telefonaktiebolaget L M Ericsson,1,ERCG.MU,MUN,Telefonaktiebolaget L.M.Erics.N,128,ERCA.MU [MUN] || ERCB.MU [MUN]
+100000337,A.P. Møller - Mærsk A/S,0,,,,0,
+183562096,Akelius Residential Property AB (publ),0,,,,0,
+199936642,Alfa Laval Treasury International AB (publ),0,,,,0,
+199936574,Carlsberg Breweries A/S,0,,,,0,
+100000445,Electrolux AB (publ),0,,,,0,
+260004735,Euroclear: TRATON FINANCE LUXEMBOURG S.A.,0,,,,0,
+199936132,Finnair Plc.,0,,,,0,
+199937619,Føroya Banki P/F,0,,,,0,
+199938639,Heba Fastighets Aktiebolag,0,,,,0,
+199934473,Huhtamäki Oyj,0,,,,0,
+200319745,Industrivärden AB (publ),0,,,,0,
+252230673,Islandsbanki hf (Íslandsbanki),0,,,,0,
+199936429,Jyske Realkredit A/S,0,,,,0,
+937895976,Jæren Sparebank,0,,,,0,
+111902467,L E Lundbergföretagen AB,0,,,,0,
+975350940,Lerøy Seafood Group ASA,0,,,,0,
+199939029,Mandatum Life Insurance Company Limited,0,,,,0,
+914594685,Olav Thon Eiendomsselskap ASA,0,,,,0,
+199936581,Oma Säästöpankki Oy,0,,,,0,
+199936202,Ringkjøbing Landbobank A/S,0,,,,0,
+993153036,Rogaland Sparebank Boligkreditt AS,0,,,,0,
+915174388,SR-Boligkreditt AS,0,,,,0,
+199938071,Samhällsbyggnadsbolaget i Norden AB (publ),0,,,,0,
+199938568,Sandvik Treasury Aktiebolag (publ),0,,,,0,
+199938861,Sappi Papier Holding,0,,,,0,
+260004245,Securitas Treasury Ireland Designated Activity Company,0,,,,0,
+199936446,Spar Nord Bank A/S,0,,,,0,
+937899408,SpareBank 1 Nordmøre,0,,,,0,
+937895321,SpareBank 1 Sør-Norge ASA,0,,,,0,
+837884942,SpareBank 1 Østfold Akershus,0,,,,0,
+920426530,SpareBank 1 Østlandet,0,,,,0,
+937899319,Sparebanken Møre,0,,,,0,
+992710691,Sparebanken Norge Boligkreditt AS,0,,,,0,
+937888937,Sparebanken Øst,0,,,,0,
+199936735,Stendörren Fastigheter AB,0,,,,0,
+260005605,Swisscom Finance B.V.,0,,,,0,
+130985892,Volvo Treasury AB,0,,,,0,
+260002891,Vår Energi ASA,0,,,,0,
+199935267,Ålandsbanken Abp,0,,,,0,
+199936712,Ørsted A/S,0,,,,0,

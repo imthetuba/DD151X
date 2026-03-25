@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.7272727272727273,
+  "precision_macro": 0.6300550747442959,
+  "recall_macro": 0.6051065162907268,
+  "f1_macro": 0.6139575380081709,
+  "f1_weighted": 0.7203551923262592,
+  "roc_auc_ovr_macro": 0.880227870500427,
+  "run_id": "run_2026-03-25_financial_enriched_random_forest_stratified",
+  "feature_set": "financial_enriched",
+  "model_name": "random_forest",
+  "split_type": "stratified",
+  "train_rows": 305,
+  "test_rows": 77
+}

@@ -1,0 +1,78 @@
+row_index,true_label,predicted_label,prob_High Yield,prob_Investment Grade High Risk,prob_Investment Grade Low Risk
+4,Investment Grade Low Risk,Investment Grade Low Risk,0.00057030556,0.060199708,0.93923
+236,Investment Grade High Risk,Investment Grade High Risk,0.0007481989,0.9375049,0.061746903
+357,Investment Grade Low Risk,Investment Grade Low Risk,0.0016719297,0.012328701,0.9859994
+10,Investment Grade High Risk,Investment Grade High Risk,0.011201923,0.7393929,0.24940519
+223,High Yield,Investment Grade Low Risk,0.013085477,0.23385678,0.7530578
+100,Investment Grade High Risk,Investment Grade High Risk,0.026473569,0.9353358,0.038190622
+291,Investment Grade Low Risk,High Yield,0.6363763,0.34966806,0.013955644
+265,Investment Grade Low Risk,Investment Grade Low Risk,0.008951693,0.23564678,0.7554015
+30,Investment Grade High Risk,Investment Grade High Risk,0.017994884,0.9548853,0.027119804
+226,Investment Grade Low Risk,Investment Grade High Risk,0.0025320493,0.67809707,0.31937087
+121,Investment Grade High Risk,Investment Grade Low Risk,0.00727152,0.21204104,0.7806874
+187,High Yield,Investment Grade High Risk,0.071005516,0.92298865,0.0060058497
+234,Investment Grade High Risk,Investment Grade High Risk,0.002441415,0.88823956,0.10931908
+361,Investment Grade Low Risk,Investment Grade Low Risk,0.003009323,0.0121922055,0.9847985
+376,Investment Grade Low Risk,Investment Grade Low Risk,0.0014561653,0.028319845,0.97022396
+41,Investment Grade High Risk,Investment Grade High Risk,0.09277593,0.81573987,0.09148419
+140,Investment Grade Low Risk,Investment Grade Low Risk,0.00038758863,0.002958418,0.9966539
+105,Investment Grade High Risk,Investment Grade High Risk,0.006975794,0.5867347,0.4062895
+6,Investment Grade High Risk,Investment Grade Low Risk,0.11834228,0.1909435,0.6907142
+324,Investment Grade Low Risk,Investment Grade High Risk,0.008034966,0.8078994,0.18406558
+369,Investment Grade High Risk,Investment Grade High Risk,0.25879633,0.6932933,0.04791042
+317,Investment Grade Low Risk,Investment Grade Low Risk,0.004448243,0.15455359,0.8409981
+262,Investment Grade Low Risk,Investment Grade Low Risk,0.001355481,0.005074788,0.99356973
+380,Investment Grade Low Risk,Investment Grade High Risk,0.0026068513,0.9703139,0.027079273
+311,Investment Grade High Risk,Investment Grade High Risk,0.004421204,0.7637487,0.23183005
+227,Investment Grade Low Risk,Investment Grade Low Risk,0.008739032,0.41516346,0.5760975
+68,Investment Grade High Risk,Investment Grade High Risk,0.010266768,0.78996825,0.19976498
+163,Investment Grade High Risk,Investment Grade High Risk,0.01660947,0.72840184,0.25498864
+177,High Yield,Investment Grade High Risk,0.061893385,0.8753101,0.06279647
+37,Investment Grade High Risk,Investment Grade Low Risk,0.035271652,0.10592173,0.8588066
+210,Investment Grade Low Risk,Investment Grade Low Risk,0.013596954,0.22396228,0.76244074
+16,Investment Grade High Risk,Investment Grade High Risk,0.1463422,0.84357256,0.010085236
+279,Investment Grade Low Risk,Investment Grade High Risk,0.07996886,0.8113027,0.108728446
+240,Investment Grade Low Risk,Investment Grade Low Risk,0.003881219,0.1116628,0.88445604
+296,Investment Grade High Risk,Investment Grade High Risk,0.1265442,0.85950404,0.013951764
+207,Investment Grade Low Risk,Investment Grade Low Risk,0.0015461531,0.091349185,0.9071046
+333,Investment Grade Low Risk,Investment Grade High Risk,0.001338727,0.5391177,0.4595436
+141,Investment Grade Low Risk,Investment Grade Low Risk,0.0012105686,0.011793694,0.98699576
+111,Investment Grade Low Risk,Investment Grade Low Risk,0.00017389543,0.0015541811,0.99827194
+189,Investment Grade High Risk,Investment Grade High Risk,0.061948083,0.8082324,0.12981948
+109,Investment Grade Low Risk,Investment Grade Low Risk,0.0010360404,0.092204325,0.9067596
+3,Investment Grade Low Risk,Investment Grade Low Risk,0.0030953886,0.19672318,0.8001814
+292,Investment Grade Low Risk,Investment Grade High Risk,0.105463795,0.6329611,0.2615751
+175,Investment Grade High Risk,High Yield,0.42112195,0.27412242,0.30475563
+316,Investment Grade Low Risk,Investment Grade Low Risk,0.0012090205,0.37473208,0.6240589
+193,Investment Grade High Risk,Investment Grade Low Risk,0.004668756,0.45656702,0.53876424
+113,Investment Grade High Risk,Investment Grade High Risk,0.00649475,0.95114183,0.04236338
+362,Investment Grade High Risk,Investment Grade Low Risk,0.01140405,0.18922965,0.7993663
+313,Investment Grade Low Risk,Investment Grade Low Risk,0.00055594783,0.00571304,0.993731
+289,Investment Grade Low Risk,Investment Grade Low Risk,0.020432692,0.21545698,0.7641103
+27,Investment Grade High Risk,Investment Grade High Risk,0.15874584,0.79246366,0.048790544
+2,Investment Grade High Risk,Investment Grade High Risk,0.004716051,0.94852877,0.04675521
+117,High Yield,High Yield,0.98350704,0.015662458,0.00083048205
+59,Investment Grade Low Risk,Investment Grade Low Risk,0.0004055048,0.03459816,0.96499634
+194,Investment Grade Low Risk,Investment Grade High Risk,0.0011183659,0.6150001,0.3838815
+84,Investment Grade Low Risk,Investment Grade Low Risk,0.00029602184,0.003350987,0.99635303
+73,High Yield,High Yield,0.74824345,0.20035149,0.051405095
+217,Investment Grade Low Risk,Investment Grade Low Risk,0.024425589,0.2529769,0.72259754
+356,Investment Grade Low Risk,Investment Grade Low Risk,0.001239139,0.02371809,0.97504276
+306,Investment Grade Low Risk,Investment Grade Low Risk,0.0028518292,0.020840326,0.97630787
+191,Investment Grade High Risk,Investment Grade Low Risk,0.0008114932,0.093996935,0.9051916
+314,Investment Grade Low Risk,Investment Grade Low Risk,0.002798737,0.09682677,0.9003745
+211,Investment Grade High Risk,Investment Grade High Risk,0.001912319,0.84723693,0.15085077
+196,High Yield,High Yield,0.98245275,0.0120014995,0.0055457437
+245,Investment Grade High Risk,Investment Grade High Risk,0.07440686,0.90461415,0.020978993
+280,Investment Grade Low Risk,Investment Grade Low Risk,0.00048310537,0.038781866,0.960735
+156,High Yield,High Yield,0.5525144,0.27837464,0.16911098
+299,Investment Grade High Risk,Investment Grade Low Risk,0.00036187313,0.13787495,0.8617632
+142,Investment Grade Low Risk,Investment Grade Low Risk,0.0014035387,0.035207774,0.96338874
+381,Investment Grade High Risk,Investment Grade High Risk,0.0018924795,0.82702965,0.17107786
+120,Investment Grade High Risk,Investment Grade Low Risk,0.16355555,0.10389858,0.73254585
+130,Investment Grade High Risk,Investment Grade High Risk,0.0012113682,0.99050164,0.0082869325
+378,Investment Grade Low Risk,Investment Grade Low Risk,0.0013361198,0.060742915,0.937921
+304,Investment Grade High Risk,Investment Grade High Risk,0.005229319,0.7447705,0.25000018
+368,Investment Grade Low Risk,Investment Grade High Risk,0.16548239,0.79674727,0.03777037
+179,Investment Grade High Risk,Investment Grade Low Risk,0.06978847,0.36018085,0.5700307
+285,Investment Grade Low Risk,Investment Grade Low Risk,0.000980297,0.14576477,0.853255

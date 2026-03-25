@@ -15,6 +15,19 @@
 # PyPI configuration file
 .pypirc
 
+# Repo cleanup (OS/editor noise)
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.vscode/
+
+# Keep canonical modeling dataset tracked
+!data/modeling_dataset.csv
+
+# Keep archived artifacts versionable
+!.archive/
+!.archive/**
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

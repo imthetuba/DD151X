@@ -1,0 +1,5152 @@
+[
+  {
+    "organization_number": "100000337",
+    "issuer_name": "A.P. Møller - Mærsk A/S",
+    "candidates": []
+  },
+  {
+    "organization_number": "134016864",
+    "issuer_name": "AB SKF",
+    "candidates": [
+      {
+        "symbol": "SKF-B.ST",
+        "shortname": "SKF, AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKF-A.ST",
+        "shortname": "SKF, AB ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKFB.F",
+        "shortname": "SKF AB                        N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKUFF",
+        "shortname": "SKF AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKFD.MU",
+        "shortname": "SKF AB                        N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "100000440",
+    "issuer_name": "AB Sagax (publ)",
+    "candidates": [
+      {
+        "symbol": "EFE.F",
+        "shortname": "AB Sagax                      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EFE1.F",
+        "shortname": "AB Sagax                      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAGA-B.ST",
+        "shortname": "Sagax AB B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAGA-A.ST",
+        "shortname": "Sagax AB A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0Q88.L",
+        "shortname": "SAGAX AB SAGA ORD SHS",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260003318",
+    "issuer_name": "ABB Ltd",
+    "candidates": [
+      {
+        "symbol": "ABBN.SW",
+        "shortname": "ABB LTD N",
+        "exchange": "EBS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ABBNY",
+        "shortname": "ABB Ltd.",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ABB.ST",
+        "shortname": "ABB Ltd",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ABJA.MU",
+        "shortname": "ABB LTD.                      N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ABJ.DU",
+        "shortname": "ABB LTD.                      N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005045",
+    "issuer_name": "ADOBE INC.",
+    "candidates": [
+      {
+        "symbol": "ADBE",
+        "shortname": "Adobe Inc.",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ADBED.BA",
+        "shortname": "ADOBE INC CEDEAR EAC 44 REP 1(U",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ADBE.NE",
+        "shortname": "ADOBE CDR (CAD HEDGED)",
+        "exchange": "NEO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ADBD.XC",
+        "shortname": "Adobe Inc",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ADBD.XD",
+        "shortname": "Adobe Inc",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936189",
+    "issuer_name": "AL Sydbank A/S",
+    "candidates": [
+      {
+        "symbol": "ALSYDB.CO",
+        "shortname": "AL Sydbank A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TM2.SG",
+        "shortname": "AL Sydbank AS",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SYANY",
+        "shortname": "Sydbank A/S",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0MGE.IL",
+        "shortname": "AL SYDBANK AL SYDBANK ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TM2.F",
+        "shortname": "AL Sydbank AS                 N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199939274",
+    "issuer_name": "ALM Brand A/S",
+    "candidates": [
+      {
+        "symbol": "1AM.F",
+        "shortname": "Alm. Brand A/S                N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0DJI.IL",
+        "shortname": "ALM. BRAND A/S ALM BRAND ORD SH",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALMBC.XD",
+        "shortname": "Alm Brand A/S",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ABDBY",
+        "shortname": "ALM. BRAND UNSPON ADS EACH REP ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALMBC.XC",
+        "shortname": "Alm Brand A/S",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937903502",
+    "issuer_name": "Aasen Sparebank",
+    "candidates": [
+      {
+        "symbol": "AASB.OL",
+        "shortname": "AASEN SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "183562096",
+    "issuer_name": "Akelius Residential Property AB (publ)",
+    "candidates": []
+  },
+  {
+    "organization_number": "886581432",
+    "issuer_name": "Aker ASA",
+    "candidates": [
+      {
+        "symbol": "FKM.SG",
+        "shortname": "Aker ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FKM.F",
+        "shortname": "Aker ASA                      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AKER.OL",
+        "shortname": "AKER",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AKAAF",
+        "shortname": "AKER ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0MJX.IL",
+        "shortname": "AKER ASA AKER ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "989795848",
+    "issuer_name": "Aker BP ASA",
+    "candidates": [
+      {
+        "symbol": "AKRBP.OL",
+        "shortname": "AKER BP",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ARC.MU",
+        "shortname": "Aker BP ASA                   N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0M5J.IL",
+        "shortname": "AKER BP ASA AKER BP ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AKRBY",
+        "shortname": "Aker BP Asa",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AKRBF",
+        "shortname": "Aker BP Asa",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199935100",
+    "issuer_name": "Aktia Bank Abp",
+    "candidates": [
+      {
+        "symbol": "0QF8.L",
+        "shortname": "AKTIA BANK ABP AKTIA ORD SHS",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260004949",
+    "issuer_name": "Aktieselskabet Schouw & Co.",
+    "candidates": [
+      {
+        "symbol": "SCHO.CO",
+        "shortname": "Schouw & Co. A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "5RF.MU",
+        "shortname": "SCHOUW & CO. AS               N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "5RF.F",
+        "shortname": "SCHOUW & CO. AS               N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SCHOC.XC",
+        "shortname": "Schouw & Co A/S",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0O0N.IL",
+        "shortname": "SCHOUW & CO A/S SCHOUW & CO ORD",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938567",
+    "issuer_name": "Alfa Laval AB",
+    "candidates": [
+      {
+        "symbol": "ALFA.ST",
+        "shortname": "Alfa Laval AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALFVY",
+        "shortname": "Alfa-Laval AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AA9.F",
+        "shortname": "Alfa Laval AB                 N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AA9.HA",
+        "shortname": "Alfa Laval AB                 N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0NNF.IL",
+        "shortname": "ALFA LAVAL AB ALFA LAVAL ORD SH",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936642",
+    "issuer_name": "Alfa Laval Treasury International AB (publ)",
+    "candidates": []
+  },
+  {
+    "organization_number": "199937403",
+    "issuer_name": "Alimentation Couche-Tard Inc.",
+    "candidates": [
+      {
+        "symbol": "ATD.TO",
+        "shortname": "ALIMENTATION COUCHE-TARD INC",
+        "exchange": "TOR",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CJA1.MU",
+        "shortname": "Alimentation Couche-Tard Inc. R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CJA1.F",
+        "shortname": "Alimentation Couche-Tard Inc. R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ANCTF",
+        "shortname": "Alimentation Couche-Tard Inc.",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CJA1.DU",
+        "shortname": "Alimentation Couche-Tard Inc. R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938755",
+    "issuer_name": "Allianz SE",
+    "candidates": [
+      {
+        "symbol": "ALV.DE",
+        "shortname": "Allianz SE                    v",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALIZY",
+        "shortname": "Allianz SE",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "US0188201000.SG",
+        "shortname": "Allianz SE (ADRs)",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0P0001NZBV.BE",
+        "shortname": "0P0001NZBV.BE",
+        "exchange": "BER",
+        "quote_type": "MUTUALFUND"
+      },
+      {
+        "symbol": "ALV.HA",
+        "shortname": "Allianz SE                    v",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934937",
+    "issuer_name": "Arion Banki hf",
+    "candidates": [
+      {
+        "symbol": "AB7A.F",
+        "shortname": "Arion Bank hf.                N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ARIONS.XD",
+        "shortname": "Arion Banki HF",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ARION.IC",
+        "shortname": "Arion banki hf.",
+        "exchange": "ICE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ARION-SDB.ST",
+        "shortname": "Arion Banki hf SDB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "106083008",
+    "issuer_name": "Assa Abloy AB",
+    "candidates": [
+      {
+        "symbol": "ASSA-B.ST",
+        "shortname": "ASSA ABLOY AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALZC.HA",
+        "shortname": "Assa-Abloy AB                 N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0R87N.MX",
+        "shortname": "ASSA ABLOY",
+        "exchange": "MEX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ASAZF",
+        "shortname": "ASSA ABLOY",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0R87.IL",
+        "shortname": "ASSA ABLOY AB (PUBL) ASSA ABLOY",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260003481",
+    "issuer_name": "AstraZeneca PLC",
+    "candidates": [
+      {
+        "symbol": "AZN",
+        "shortname": "AstraZeneca PLC",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AZN.L",
+        "shortname": "ASTRAZENECA PLC ORD SHS $0.25",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AZN.ST",
+        "shortname": "AstraZeneca PLC",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ZEG.DE",
+        "shortname": "AstraZeneca PLC               R",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ZEG.SG",
+        "shortname": "AstraZeneca PLC",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "920237126",
+    "issuer_name": "Atea ASA",
+    "candidates": [
+      {
+        "symbol": "ATEA.OL",
+        "shortname": "ATEA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ATAZF",
+        "shortname": "ATEA ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MKL.MU",
+        "shortname": "Atea ASA                      N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MKL.SG",
+        "shortname": "Atea ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MKL.F",
+        "shortname": "Atea ASA                      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936663",
+    "issuer_name": "Atlas Copco AB",
+    "candidates": [
+      {
+        "symbol": "ACO4.F",
+        "shortname": "Atlas Copco AB                N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ATCO-A.ST",
+        "shortname": "Atlas Copco AB ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ATLC",
+        "shortname": "Atlanticus Holdings Corporation",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ATLFF",
+        "shortname": "ATLAS COPCO AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ATCOBS.XC",
+        "shortname": "Atlas Copco AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936278",
+    "issuer_name": "Atrium Ljungberg AB (publ)",
+    "candidates": [
+      {
+        "symbol": "ATRLJ-B.ST",
+        "shortname": "Atrium Ljungberg AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "A1A0.F",
+        "shortname": "Atrium Ljungberg AB           N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0IHM.IL",
+        "shortname": "ATRIUM LJUNGBERG AB ATRIUM LJUN",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ATRLBS.XC",
+        "shortname": "Atrium Ljungberg AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937885644",
+    "issuer_name": "Aurskog Sparebank",
+    "candidates": [
+      {
+        "symbol": "AURG.OL",
+        "shortname": "AURSKOG SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0DNT.L",
+        "shortname": "AURSKOG SPAREBANK AURSKOG SPARE",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VK2.SG",
+        "shortname": "Aurskog Sparebank",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AURGO.XD",
+        "shortname": "Aurskog Sparebank",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "929975200",
+    "issuer_name": "Austevoll Seafood ASA",
+    "candidates": [
+      {
+        "symbol": "Z85.MU",
+        "shortname": "Austevoll Seafood ASA         N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "AUSSO.XC",
+        "shortname": "Austevoll Seafood ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "Z85.HA",
+        "shortname": "Austevoll Seafood ASA         N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "Z85.F",
+        "shortname": "Austevoll Seafood ASA         N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "Z85.DU",
+        "shortname": "Austevoll Seafood ASA         N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938117",
+    "issuer_name": "Autoliv Inc",
+    "candidates": [
+      {
+        "symbol": "ALV",
+        "shortname": "Autoliv, Inc.",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LIVA.F",
+        "shortname": "Autoliv Inc.                  R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALIV-SDB.ST",
+        "shortname": "Autoliv Inc. SDB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LIV.DU",
+        "shortname": "AUTOLIV INC.                  R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ALIVS.XC",
+        "shortname": "Autoliv Inc",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199937853",
+    "issuer_name": "BNP Paribas SA",
+    "candidates": [
+      {
+        "symbol": "BNP.PA",
+        "shortname": "BNP PARIBAS ACT.A",
+        "exchange": "PAR",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BNPQY",
+        "shortname": "BNP Paribas",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BNPH.F",
+        "shortname": "BNP Paribas S.A.              A",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BNP.VI",
+        "shortname": "BNP PARIBAS SA",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0HB5.IL",
+        "shortname": "BNP PARIBAS SA BNP PARIBAS ORD ",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938389",
+    "issuer_name": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "candidates": [
+      {
+        "symbol": "BBVA",
+        "shortname": "Banco Bilbao Vizcaya Argentaria",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BBVA.SG",
+        "shortname": "Banco Bilbao Vizcaya Argentaria",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BBVXF",
+        "shortname": "BANCO BILBAO VIZCAYA ARGENTAR",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BBVD.BA",
+        "shortname": "BANCO BILBAO VIZCAYA ARGENTAR C",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BBV.BA",
+        "shortname": "BANCO BILBAO VIZCAYA ARGENTAR C",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938502",
+    "issuer_name": "Bayer AG",
+    "candidates": [
+      {
+        "symbol": "BAYN.DE",
+        "shortname": "Bayer AG                      N",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BAYN.MU",
+        "shortname": "Bayer AG                      N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BAYND.XD",
+        "shortname": "Bayer AG",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SSBAYG.FGI",
+        "shortname": "FTSE Bayer AG DEM5 Index",
+        "exchange": "FGI",
+        "quote_type": "INDEX"
+      },
+      {
+        "symbol": "BAYER.BD",
+        "shortname": "BAYER AG",
+        "exchange": "BUD",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "998753562",
+    "issuer_name": "Borregaard ASA",
+    "candidates": [
+      {
+        "symbol": "BO4.DU",
+        "shortname": "Borregaard ASA                N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BRRDF",
+        "shortname": "BORREGAARD ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BRGO.OL",
+        "shortname": "Borregaard ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BRGAY",
+        "shortname": "BORREGAARD ASA UNSP ADR EACH RE",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BO4.MU",
+        "shortname": "Borregaard ASA                N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936574",
+    "issuer_name": "Carlsberg Breweries A/S",
+    "candidates": []
+  },
+  {
+    "organization_number": "181305440",
+    "issuer_name": "Castellum AB",
+    "candidates": [
+      {
+        "symbol": "CAST.ST",
+        "shortname": "Castellum AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CASTS.XD",
+        "shortname": "Castellum AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CWQXF",
+        "shortname": "CASTELLUM AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEX.MU",
+        "shortname": "CASTELLUM AB                  N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEX.SG",
+        "shortname": "Castellum AB",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938447",
+    "issuer_name": "Catena AB",
+    "candidates": [
+      {
+        "symbol": "CATE.ST",
+        "shortname": "Catena AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "T9R.F",
+        "shortname": "Catena AB                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0GVS.IL",
+        "shortname": "CATENA AB CATENA ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CATES.XD",
+        "shortname": "Catena AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CATES.XC",
+        "shortname": "Catena AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934341",
+    "issuer_name": "Citycon Oyj",
+    "candidates": [
+      {
+        "symbol": "CTY1S.HE",
+        "shortname": "Citycon Oyj",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "COYJF",
+        "shortname": "CITYCON OYJ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TY2B.DU",
+        "shortname": "Citycon Oyj                   R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TY2B.SG",
+        "shortname": "Citycon Oyj",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TY2B.MU",
+        "shortname": "Citycon Oyj                   R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260002879",
+    "issuer_name": "Coloplast A/S",
+    "candidates": [
+      {
+        "symbol": "COLO-B.CO",
+        "shortname": "Coloplast B A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CBH.F",
+        "shortname": "Coloplast AS                  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CBHD.HA",
+        "shortname": "Coloplast AS                  N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CBHD.F",
+        "shortname": "Coloplast AS                  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CBHD.SG",
+        "shortname": "Coloplast AS",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "252536604",
+    "issuer_name": "Commerzbank AG",
+    "candidates": [
+      {
+        "symbol": "CBK.DE",
+        "shortname": "Commerzbank AG                I",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CRZBY",
+        "shortname": "Commerzbank AG",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CBK.VI",
+        "shortname": "COMMERZBANK AG",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ZZMS.F",
+        "shortname": "Commerzbank AG                N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "CRZBF",
+        "shortname": "Commerzbank AG",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "108520479",
+    "issuer_name": "Corem Property Group AB (publ)",
+    "candidates": [
+      {
+        "symbol": "BJV0.F",
+        "shortname": "Corem Property Group AB       R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BJV1.F",
+        "shortname": "Corem Property Group AB       N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "COREPS.XC",
+        "shortname": "Corem Property Group AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BJV.F",
+        "shortname": "Corem Property Group AB       N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "COREBS.XC",
+        "shortname": "Corem Property Group AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "147805458",
+    "issuer_name": "DFDS A/S",
+    "candidates": [
+      {
+        "symbol": "DFDS.CO",
+        "shortname": "DFDS A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "29K.F",
+        "shortname": "DFDS A/S                      I",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0RB3.IL",
+        "shortname": "DFDS A/S DFDS A/S ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DFDDF",
+        "shortname": "DFDS A/S Copenhagen",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DFDSC.XD",
+        "shortname": "Dfds A/S",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "984851006",
+    "issuer_name": "DNB Bank ASA",
+    "candidates": [
+      {
+        "symbol": "D1NC.F",
+        "shortname": "DNB Bank ASA                  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DNB.OL",
+        "shortname": "DNB BANK ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DNBBF",
+        "shortname": "DNB NOR BANK ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "D1NC.HA",
+        "shortname": "DNB Bank ASA                  N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NO0010161896.SG",
+        "shortname": "DNB Bank ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936490",
+    "issuer_name": "DSV A/S",
+    "candidates": [
+      {
+        "symbol": "DSV.CO",
+        "shortname": "DSV A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DSDVY",
+        "shortname": "DSV A S",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DS81.HA",
+        "shortname": "DSV A/S                       I",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DS8.F",
+        "shortname": "DSV A/S                       I",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DS81.F",
+        "shortname": "DSV A/S                       I",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936751",
+    "issuer_name": "Danske Bank A/S",
+    "candidates": [
+      {
+        "symbol": "DANSKE.CO",
+        "shortname": "Danske Bank A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DANSKC.XC",
+        "shortname": "Danske Bank A/S",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DNSKF",
+        "shortname": "DANSKE BANK A/S",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0NVC.IL",
+        "shortname": "DANSKE BANK A/S DANSKE BANK ORD",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DSN0.MU",
+        "shortname": "Danske Bank AS                N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938138",
+    "issuer_name": "Deutsche Bank AG",
+    "candidates": [
+      {
+        "symbol": "DB",
+        "shortname": "Deutsche Bank AG",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DBK.DE",
+        "shortname": "DEUTSCHE BANK AG              N",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DBK.VI",
+        "shortname": "DEUTSCHE BANK AG",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SZOXF",
+        "shortname": "DEUTSCHE BANK AG LONDON DB CRUD",
+        "exchange": "PNK",
+        "quote_type": "ETF"
+      },
+      {
+        "symbol": "DBK.F",
+        "shortname": "DEUTSCHE BANK AG              N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936643",
+    "issuer_name": "Dometic Group Ab (publ)",
+    "candidates": [
+      {
+        "symbol": "DOM.ST",
+        "shortname": "Dometic Group AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "D00.F",
+        "shortname": "Dometic Group AB              N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DOMS.XC",
+        "shortname": "Dometic Group AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DTCGF",
+        "shortname": "DOMETIC GROUP AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0RCO.IL",
+        "shortname": "DOMETIC GROUP AB (PUBL) DOMETIC",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199939997",
+    "issuer_name": "EQT AB",
+    "candidates": [
+      {
+        "symbol": "6EQ.F",
+        "shortname": "EQT AB                        N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EQBBF",
+        "shortname": "EQT AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EQT.ST",
+        "shortname": "EQT AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EQTS.XD",
+        "shortname": "EQT AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SE0012853455.SG",
+        "shortname": "EQT AB",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "100000445",
+    "issuer_name": "Electrolux AB (publ)",
+    "candidates": []
+  },
+  {
+    "organization_number": "120942809",
+    "issuer_name": "Elekta AB (publ)",
+    "candidates": [
+      {
+        "symbol": "EKTA-B.ST",
+        "shortname": "Elekta AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EJX.MU",
+        "shortname": "Elekta AB                     N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EKTABS.XC",
+        "shortname": "Elekta AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0O5H.IL",
+        "shortname": "ELEKTA AB (PUBL) ELEKTA B ORD S",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EKTAF",
+        "shortname": "Elekta AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005063",
+    "issuer_name": "Elevance Health Inc",
+    "candidates": [
+      {
+        "symbol": "ELV",
+        "shortname": "Elevance Health, Inc.",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "A58.F",
+        "shortname": "Elevance Health Inc.          R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1ANTM.MI",
+        "shortname": "ELEVANCE HEALTH",
+        "exchange": "MIL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "E1LV34.SA",
+        "shortname": "ELEV HEALTH DRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "A58.DU",
+        "shortname": "Elevance Health Inc.          R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934619",
+    "issuer_name": "Elisa Oyj",
+    "candidates": [
+      {
+        "symbol": "ELISA.HE",
+        "shortname": "Elisa Corporation",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EIA.SG",
+        "shortname": "Elisa Oyj",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ELMUY",
+        "shortname": "Elisa Communications Corp.",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ELISAH.XC",
+        "shortname": "Elisa Oyj",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EIA.HA",
+        "shortname": "Elisa Oyj                     R",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "911382008",
+    "issuer_name": "Elkem ASA",
+    "candidates": [
+      {
+        "symbol": "ELK.OL",
+        "shortname": "ELKEM",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ELKEF",
+        "shortname": "Elkem ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1DP.MU",
+        "shortname": "Elkem ASA                     N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ELKO.OL",
+        "shortname": "Elkem ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1DP.SG",
+        "shortname": "Elkem ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "811413682",
+    "issuer_name": "Elopak ASA",
+    "candidates": [
+      {
+        "symbol": "ELO.OL",
+        "shortname": "ELOPAK ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ELPKF",
+        "shortname": "ELOPAK ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "9J7.F",
+        "shortname": "Elopak AS                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ELOO.XC",
+        "shortname": "Elopak ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0AB3.IL",
+        "shortname": "ELOPAK ASA ELOPAK ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "999296432",
+    "issuer_name": "Entra ASA",
+    "candidates": [
+      {
+        "symbol": "ENTRA.OL",
+        "shortname": "ENTRA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ENTRAO.XD",
+        "shortname": "Entra ASA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "2EN.HA",
+        "shortname": "Entra ASA                     N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NO0010716418.SG",
+        "shortname": "Entra ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "2EN.F",
+        "shortname": "Entra ASA                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938697",
+    "issuer_name": "Epiroc Aktiebolag",
+    "candidates": [
+      {
+        "symbol": "EPOAY",
+        "shortname": "Epiroc Aktiebolag",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EPIAF",
+        "shortname": "Epiroc Aktiebolag",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "923609016",
+    "issuer_name": "Equinor ASA",
+    "candidates": [
+      {
+        "symbol": "EQNR",
+        "shortname": "Equinor ASA",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EQNR.OL",
+        "shortname": "EQUINOR",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "EQNRN.MX",
+        "shortname": "EQUINOR ASA",
+        "exchange": "MEX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DNQ.F",
+        "shortname": "Equinor ASA                   N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STOHF",
+        "shortname": "Equinor ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938034",
+    "issuer_name": "Essity AB",
+    "candidates": [
+      {
+        "symbol": "ESSITY-B.ST",
+        "shortname": "Essity AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ESWB.F",
+        "shortname": "Essity AB                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ESWB.DU",
+        "shortname": "Essity AB                     N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ESSIAS.XD",
+        "shortname": "Essity AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0RQC.L",
+        "shortname": "ESSITY AB (PUBL) ESSITY ORD SHS",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260004735",
+    "issuer_name": "Euroclear: TRATON FINANCE LUXEMBOURG S.A.",
+    "candidates": []
+  },
+  {
+    "organization_number": "198403405",
+    "issuer_name": "Fabege AB (publ)",
+    "candidates": [
+      {
+        "symbol": "WILC.F",
+        "shortname": "Fabege AB                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FABG.ST",
+        "shortname": "Fabege AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FBGGF",
+        "shortname": "FABEGE AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FBGBY",
+        "shortname": "FABEGE AB UNSP ADR EACH REPR 2 ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FABGS.XC",
+        "shortname": "Fabege AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "153033241",
+    "issuer_name": "FastPartner AB (publ)",
+    "candidates": [
+      {
+        "symbol": "ZA5.F",
+        "shortname": "FastPartner AB                N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FPAR-A.ST",
+        "shortname": "Fastpartner AB ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FPAR-D.ST",
+        "shortname": "Fastpartner AB ser. D",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "131799428",
+    "issuer_name": "Fastighets AB Balder (publ)",
+    "candidates": [
+      {
+        "symbol": "28F0.F",
+        "shortname": "Fastighets AB Balder          N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BALDBS.XC",
+        "shortname": "Fastighets AB Balder",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BALD-B.ST",
+        "shortname": "Fastighets AB Balder ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "BALDF",
+        "shortname": "FASTIGHETS AB BALDER",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0H2Z.IL",
+        "shortname": "FASTIGHETS AB BALDER FASTIGHETS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260004739",
+    "issuer_name": "Ferrovial SE",
+    "candidates": [
+      {
+        "symbol": "FER",
+        "shortname": "Ferrovial SE",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FER.MC",
+        "shortname": "FERROVIAL SE",
+        "exchange": "MCE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FER.AS",
+        "shortname": "FERROVIAL SE",
+        "exchange": "AMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "8ZQ.SG",
+        "shortname": "Ferrovial SE",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FERE.XD",
+        "shortname": "Ferrovial SE",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936132",
+    "issuer_name": "Finnair Plc.",
+    "candidates": []
+  },
+  {
+    "organization_number": "199934805",
+    "issuer_name": "Fortum Oyj",
+    "candidates": [
+      {
+        "symbol": "FORTUM.HE",
+        "shortname": "Fortum Corporation",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FOJCF",
+        "shortname": "Fortum Oyj",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FORTMH.XC",
+        "shortname": "Fortum Oyj",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FOT.DU",
+        "shortname": "FORTUM OYJ                    R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FOT.F",
+        "shortname": "FORTUM OYJ                    R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199937619",
+    "issuer_name": "Føroya Banki P/F",
+    "candidates": []
+  },
+  {
+    "organization_number": "995568217",
+    "issuer_name": "Gjensidige Forsikring ASA",
+    "candidates": [
+      {
+        "symbol": "GJF.OL",
+        "shortname": "GJENSIDIGE FORSIKRING",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "XGJ.F",
+        "shortname": "Gjensidige Forsikring ASA     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "XGJ.SG",
+        "shortname": "Gjensidige Forsikring ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "GJFO.XC",
+        "shortname": "Gjensidige Forsikring ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0OJC.IL",
+        "shortname": "GJENSIDIGE FORSIKRING ASA GJENS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "136282765",
+    "issuer_name": "Golar LNG Limited",
+    "candidates": [
+      {
+        "symbol": "GLNG",
+        "shortname": "Golar LNG Limited",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0HDY.L",
+        "shortname": "GOLAR LNG LTD GOLAR LNG ORD SHS",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "GLNGN.MX",
+        "shortname": "GOLAR LNG LIMITED",
+        "exchange": "MEX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "G2O.F",
+        "shortname": "GOLAR LNG LTD.                R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938867",
+    "issuer_name": "H & M Hennes & Mauritz AB",
+    "candidates": [
+      {
+        "symbol": "HMSA.MU",
+        "shortname": "H & M Hennes & Mauritz AB     N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HMSB.F",
+        "shortname": "H & M HENNES & MAURITZ AB     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HMSB.SG",
+        "shortname": "H & M Hennes & Mauritz AB",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HMSB.DE",
+        "shortname": "H & M HENNES & MAURITZ AB     N",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HNNMY",
+        "shortname": "Hennes & Mauritz AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199939675",
+    "issuer_name": "H. Lundbeck A/S",
+    "candidates": [
+      {
+        "symbol": "HLUN-A.CO",
+        "shortname": "H. Lundbeck A/S A",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HLUN-B.CO",
+        "shortname": "H. Lundbeck A/S B",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LDBA.SG",
+        "shortname": "H. Lundbeck A/S Navne-Aktier B",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LDBB.DU",
+        "shortname": "H. Lundbeck A/S               N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LDBA.F",
+        "shortname": "H. Lundbeck A/S               N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "837895502",
+    "issuer_name": "Haugesund Sparebank",
+    "candidates": [
+      {
+        "symbol": "Y7I.F",
+        "shortname": "Haugesund Sparebank           N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HGSB.OL",
+        "shortname": "HAUGESUND SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938639",
+    "issuer_name": "Heba Fastighets Aktiebolag",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936636",
+    "issuer_name": "Heimstaden AB (publ)",
+    "candidates": [
+      {
+        "symbol": "61B.F",
+        "shortname": "Heimstaden AB                 R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HEIM-PREF.ST",
+        "shortname": "Heimstaden AB Pref",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199937581",
+    "issuer_name": "Hoist Finance AB (publ)",
+    "candidates": [
+      {
+        "symbol": "4HF.F",
+        "shortname": "Hoist Finance AB              N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0R65.IL",
+        "shortname": "HOIST FINANCE PUBL AB HOIST FIN",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HOFI.ST",
+        "shortname": "Hoist Finance AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HOFIS.XC",
+        "shortname": "Hoist Finance AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199626114",
+    "issuer_name": "Holmen AB (publ)",
+    "candidates": [
+      {
+        "symbol": "HOLM-B.ST",
+        "shortname": "Holmen AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HOLM-A.ST",
+        "shortname": "Holmen AB ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HL9D.F",
+        "shortname": "Holmen AB                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0XS9.IL",
+        "shortname": "HOLMEN AB HOLMEN B ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HLHLY",
+        "shortname": "",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934473",
+    "issuer_name": "Huhtamäki Oyj",
+    "candidates": []
+  },
+  {
+    "organization_number": "199933795",
+    "issuer_name": "Husqvarna AB",
+    "candidates": [
+      {
+        "symbol": "HRZA.F",
+        "shortname": "Husqvarna AB                  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HUSQ-B.ST",
+        "shortname": "Husqvarna AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HUSQF",
+        "shortname": "Husqvarna AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HUQVF",
+        "shortname": "HUSQVARNA AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0GWI.L",
+        "shortname": "HUSQVARNA AB HUSQVARNA ORD SHS",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "200319745",
+    "issuer_name": "Industrivärden AB (publ)",
+    "candidates": []
+  },
+  {
+    "organization_number": "199938369",
+    "issuer_name": "Indutrade AB (publ)",
+    "candidates": [
+      {
+        "symbol": "INDT.ST",
+        "shortname": "Indutrade AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IDDWF",
+        "shortname": "INDUTRADE AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0H30.IL",
+        "shortname": "INDUTRADE AB INDUTRADE ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "I1M.F",
+        "shortname": "Indutrade AB                  A",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "INDTS.XC",
+        "shortname": "Indutrade AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199940357",
+    "issuer_name": "International Petroleum Corporation",
+    "candidates": [
+      {
+        "symbol": "IPCO.TO",
+        "shortname": "INTERNATIONAL PETROLEUM CORPORA",
+        "exchange": "TOR",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IPCO.ST",
+        "shortname": "International Petroleum Corpora",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IPCOS.XC",
+        "shortname": "International Petroleum Corp",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IPCFF",
+        "shortname": "International Petroleum Corp. C",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0V1L.IL",
+        "shortname": "INTERNATIONAL PETROLEUM CORP IN",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "111273386",
+    "issuer_name": "Intrum AB",
+    "candidates": [
+      {
+        "symbol": "INTRUM.ST",
+        "shortname": "Intrum AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0H9P.IL",
+        "shortname": "INTRUM JUSTITIA AB INTRUM JUSTI",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "INTRUS.XC",
+        "shortname": "Intrum AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IJU.DU",
+        "shortname": "Intrum AB                     N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "INTRUS.XD",
+        "shortname": "Intrum AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938391",
+    "issuer_name": "Investment AB Latour (publ)",
+    "candidates": [
+      {
+        "symbol": "18LB.F",
+        "shortname": "Latour Investment AB          N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LATO-B.ST",
+        "shortname": "Latour, Investmentab. ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LATOBS.XC",
+        "shortname": "Investment AB Latour",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IVTBF",
+        "shortname": "INVESTMENT AB LATOUR (PUBL)",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0RQP.IL",
+        "shortname": "INVESTMENT LATOUR AB LATOUR INV",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936508",
+    "issuer_name": "Investor AB",
+    "candidates": [
+      {
+        "symbol": "INVE-B.ST",
+        "shortname": "Investor AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IVSBF",
+        "shortname": "Investors AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IVS.F",
+        "shortname": "Investor AB                   N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IVSD.F",
+        "shortname": "Investor AB                   N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IVSD.DU",
+        "shortname": "Investor AB                   N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "252230673",
+    "issuer_name": "Islandsbanki hf (Íslandsbanki)",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936174",
+    "issuer_name": "Jyske Bank A/S",
+    "candidates": [
+      {
+        "symbol": "JYSKY",
+        "shortname": "JYSKE BANK A/S UNSP ADR EACH RE",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "JYS1.SG",
+        "shortname": "Jyske Bank A/S",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "JYSK.CO",
+        "shortname": "Jyske Bank A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "JYS1.DU",
+        "shortname": "Jyske Bank A/S                N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "JYSKC.XD",
+        "shortname": "Jyske Bank A/S",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936429",
+    "issuer_name": "Jyske Realkredit A/S",
+    "candidates": []
+  },
+  {
+    "organization_number": "937895976",
+    "issuer_name": "Jæren Sparebank",
+    "candidates": []
+  },
+  {
+    "organization_number": "260003730",
+    "issuer_name": "KRUK S.A.",
+    "candidates": [
+      {
+        "symbol": "83I.MU",
+        "shortname": "Kruk S.A.                     I",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "83I.F",
+        "shortname": "Kruk S.A.                     I",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PLKRK0000010.SG",
+        "shortname": "Kruk S.A.",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "83I.DU",
+        "shortname": "Kruk S.A.                     I",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005043",
+    "issuer_name": "Kering SA",
+    "candidates": [
+      {
+        "symbol": "KER.PA",
+        "shortname": "KERING",
+        "exchange": "PAR",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PPX.F",
+        "shortname": "Kering S.A.                   A",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PPX.HM",
+        "shortname": "Kering S.A.                   A",
+        "exchange": "HAM",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PPX.SG",
+        "shortname": "Kering S.A.",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KERP.XD",
+        "shortname": "Kering SA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005070",
+    "issuer_name": "Keysight Technologies Inc",
+    "candidates": [
+      {
+        "symbol": "KEYS",
+        "shortname": "Keysight Technologies Inc.",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K1SG34.SA",
+        "shortname": "KEYSIGHT TECDRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1KT.F",
+        "shortname": "Keysight Technologies Inc.    R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1KT.DU",
+        "shortname": "Keysight Technologies Inc.    R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KEYS.VI",
+        "shortname": "KEYSIGHT TECHNOLOGIES IN",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199935978",
+    "issuer_name": "Kojamo Oyj",
+    "candidates": [
+      {
+        "symbol": "V4OC.MU",
+        "shortname": "Lumo Kodit Oyj                R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "V4OC.DU",
+        "shortname": "Lumo Kodit Oyj                R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KOJAMH.XD",
+        "shortname": "Kojamo Oyj",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KOJAF",
+        "shortname": "KOJAMO OYJ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "942593821",
+    "issuer_name": "Kongsberg Automotive ASA",
+    "candidates": [
+      {
+        "symbol": "KOA.OL",
+        "shortname": "KONGSBERG AUTOMOTIVE",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KOAO.XD",
+        "shortname": "Kongsberg Automotive ASA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KOAO.XC",
+        "shortname": "Kongsberg Automotive ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K3A.MU",
+        "shortname": "Kongsberg Automotive ASA      N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K3A.SG",
+        "shortname": "Kongsberg Automotive ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "943753709",
+    "issuer_name": "Kongsberg Gruppen ASA",
+    "candidates": [
+      {
+        "symbol": "KOG.OL",
+        "shortname": "KONGSBERG GRUPPEN",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KOZ1.F",
+        "shortname": "Kongsberg Gruppen AS          N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KBGGY",
+        "shortname": "Kongsberg Gruppen ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "KOGO.XD",
+        "shortname": "Kongsberg Gruppen ASA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NSKFF",
+        "shortname": "Kongsberg Gruppen ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199937293",
+    "issuer_name": "Kvika banki hf.",
+    "candidates": [
+      {
+        "symbol": "KVIKA.IC",
+        "shortname": "Kvika banki hf.",
+        "exchange": "ICE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "111902467",
+    "issuer_name": "L E Lundbergföretagen AB",
+    "candidates": []
+  },
+  {
+    "organization_number": "975350940",
+    "issuer_name": "Lerøy Seafood Group ASA",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936702",
+    "issuer_name": "Loomis AB",
+    "candidates": [
+      {
+        "symbol": "LOOMIS.ST",
+        "shortname": "Loomis AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0JYZ.IL",
+        "shortname": "LOOMIS AB LOOMIS ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K900.MU",
+        "shortname": "Loomis AB                     N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K900.F",
+        "shortname": "Loomis AB                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "LOIMY",
+        "shortname": "",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199939029",
+    "issuer_name": "Mandatum Life Insurance Company Limited",
+    "candidates": []
+  },
+  {
+    "organization_number": "260005954",
+    "issuer_name": "McCormick & Company Inc",
+    "candidates": [
+      {
+        "symbol": "MKC",
+        "shortname": "McCormick & Company, Incorporat",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "M1KC34.SA",
+        "shortname": "MCCORMICK   DRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MCX.F",
+        "shortname": "MCCORMICK & CO. INC.          R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MKC.VI",
+        "shortname": "MCCORMICK & CO-NON VTG SHRS",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MKC-V",
+        "shortname": "McCormick & Company, Incorporat",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937901291",
+    "issuer_name": "Melhus Sparebank",
+    "candidates": [
+      {
+        "symbol": "MELG.OL",
+        "shortname": "MELHUS SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K15.SG",
+        "shortname": "Melhus Sparebank",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MELGO.XD",
+        "shortname": "Melhus Sparebank",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936672",
+    "issuer_name": "Mercedes-Benz Group AG",
+    "candidates": [
+      {
+        "symbol": "MBG.DE",
+        "shortname": "Mercedes-Benz Group AG        N",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MBGYY",
+        "shortname": "Mercedes Benz Group AG",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MBGAF",
+        "shortname": "Mercedes Benz Group AG",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MBG.MU",
+        "shortname": "Mercedes-Benz Group AG        N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1MBG.MI",
+        "shortname": "MERCEDES-BENZ GROUP",
+        "exchange": "MIL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936153",
+    "issuer_name": "Metso Oyj",
+    "candidates": [
+      {
+        "symbol": "METSO.HE",
+        "shortname": "Metso Oyj",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "METSOH.XC",
+        "shortname": "Metso Oyj",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "M6Q.DU",
+        "shortname": "Metso Oyj                     R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OUKPF",
+        "shortname": "METSO OYJ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "M6Q.HA",
+        "shortname": "Metso Oyj                     R",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936520",
+    "issuer_name": "Metsä Board Oyj",
+    "candidates": [
+      {
+        "symbol": "METSB.HE",
+        "shortname": "Metsä Board Oyj B",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "METSA.HE",
+        "shortname": "Metsä Board Oyj A",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0O79.L",
+        "shortname": "METSA BOARD OYJ METSA BOARD COR",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MSRB.DU",
+        "shortname": "METSAE BOARD OYJ B EO1,70",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MSRB.F",
+        "shortname": "METSAE BOARD OYJ B EO1,70",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005071",
+    "issuer_name": "Microsoft Corporation",
+    "candidates": [
+      {
+        "symbol": "MSFT",
+        "shortname": "Microsoft Corporation",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MSFT.BA",
+        "shortname": "MICROSOFT CORP CEDEAR EACH 30 R",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MSFT01.BK",
+        "shortname": "MSFT01_DR MSFT#BLS",
+        "exchange": "SET",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MSFT.MX",
+        "shortname": "MICROSOFT CORP",
+        "exchange": "MEX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MSF0.F",
+        "shortname": "Microsoft Corp.               R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "101187763",
+    "issuer_name": "Millicom International Cellular S.A.",
+    "candidates": [
+      {
+        "symbol": "TIGO",
+        "shortname": "Millicom International Cellular",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MLCMF",
+        "shortname": "",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "M4M1.F",
+        "shortname": "MILLICOM INTL CELLULAR S.A.   R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "M4M1.HM",
+        "shortname": "MILLICOM INTL CELLULAR S.A.   R",
+        "exchange": "HAM",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "964118191",
+    "issuer_name": "Mowi ASA",
+    "candidates": [
+      {
+        "symbol": "MOWI.OL",
+        "shortname": "MOWI",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MHGVY",
+        "shortname": "Mowi ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PNDA.MU",
+        "shortname": "Mowi ASA                      N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PND.F",
+        "shortname": "Mowi ASA                      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MNHVF",
+        "shortname": "Mowi ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260003994",
+    "issuer_name": "National Grid PLC",
+    "candidates": [
+      {
+        "symbol": "NGG",
+        "shortname": "National Grid Transco, PLC Nati",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NG.L",
+        "shortname": "NATIONAL GRID PLC ORD 12 204/47",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NNGD.MU",
+        "shortname": "National Grid PLC             R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "N1GG34.SA",
+        "shortname": "NATIONAL GRIDRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NGGTF",
+        "shortname": "National Grid PLC",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934503",
+    "issuer_name": "Neste Oyj",
+    "candidates": [
+      {
+        "symbol": "NESTE.HE",
+        "shortname": "Neste Corporation",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1NESTE.MI",
+        "shortname": "NESTE",
+        "exchange": "MIL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NTOIF",
+        "shortname": "Neste OYJ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0O46.IL",
+        "shortname": "NESTE OYJ NESTE ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NEF.MU",
+        "shortname": "Neste Oyj                     R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936681",
+    "issuer_name": "Nokia Oyj",
+    "candidates": [
+      {
+        "symbol": "NOK",
+        "shortname": "Nokia Corporation Sponsored",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NOKIA.HE",
+        "shortname": "Nokia Corporation",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0K8D.L",
+        "shortname": "NOKIA OYJ NOKIA ADR REP ONE ORD",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NOAA.MU",
+        "shortname": "Nokia Oyj                     R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0HAF.IL",
+        "shortname": "NOKIA OYJ NOKIA ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936757",
+    "issuer_name": "Nordea Bank Abp",
+    "candidates": [
+      {
+        "symbol": "NDA-FI.HE",
+        "shortname": "Nordea Bank Abp",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NDA-DK.CO",
+        "shortname": "Nordea Bank Abp",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "04Q.F",
+        "shortname": "Nordea Bank Abp               R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "04QA.F",
+        "shortname": "Nordea Bank Abp               R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NRDBY",
+        "shortname": "Nordea Bank Abp",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "966011726",
+    "issuer_name": "Nordic Semiconductor ASA",
+    "candidates": [
+      {
+        "symbol": "NOD.OL",
+        "shortname": "NORDIC SEMICONDUCTOR",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NRSDY",
+        "shortname": "NORDIC SEMICONDUCTOR ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NODO.OL",
+        "shortname": "Nordic Semiconductor ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "N0S0.F",
+        "shortname": "Nordic Semiconductor ASA      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "N0S.MU",
+        "shortname": "Nordic Semiconductor ASA      N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199937985",
+    "issuer_name": "Norion Bank AB",
+    "candidates": [
+      {
+        "symbol": "NORION.ST",
+        "shortname": "Norion Bank AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NORIOS.XD",
+        "shortname": "Norion Bank AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NORIOS.XC",
+        "shortname": "Norion Bank AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "914778271",
+    "issuer_name": "Norsk Hydro ASA",
+    "candidates": [
+      {
+        "symbol": "NHY.OL",
+        "shortname": "NORSK HYDRO",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NHYKF",
+        "shortname": "Norsk Hydro ASA",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NOH1.HM",
+        "shortname": "NORSK HYDRO ASA               N",
+        "exchange": "HAM",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NOHA.F",
+        "shortname": "NORSK HYDRO ASA               N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NHYO.XD",
+        "shortname": "Norsk Hydro ASA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260002713",
+    "issuer_name": "Novo Nordisk A/S",
+    "candidates": [
+      {
+        "symbol": "NVO",
+        "shortname": "Novo Nordisk A/S",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NOVO-B.CO",
+        "shortname": "Novo Nordisk B A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NOV.HA",
+        "shortname": "Novo-Nordisk AS               N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NNO2.VI",
+        "shortname": "NOVO-NORDISK AS",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0TDD.L",
+        "shortname": "NOVO NORDISK A/S NOVO-NORDISK A",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005685",
+    "issuer_name": "Novonesis A/S",
+    "candidates": [
+      {
+        "symbol": "NZM2.F",
+        "shortname": "Novonesis A/S                 N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NZM2.SG",
+        "shortname": "Novonesis A/S",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NZM2.DU",
+        "shortname": "Novonesis A/S                 N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NZM.F",
+        "shortname": "Novonesis A/S                 N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NZM2.MU",
+        "shortname": "Novonesis A/S                 N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "914594685",
+    "issuer_name": "Olav Thon Eiendomsselskap ASA",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936581",
+    "issuer_name": "Oma Säästöpankki Oy",
+    "candidates": []
+  },
+  {
+    "organization_number": "260005970",
+    "issuer_name": "Oracle Corporation",
+    "candidates": [
+      {
+        "symbol": "ORCL",
+        "shortname": "Oracle Corporation",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ORCL34.SA",
+        "shortname": "ORACLE      DRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ORCLCL.SN",
+        "shortname": "ORACLE CORP",
+        "exchange": "SGO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ORCLD.BA",
+        "shortname": "ORACLE CORP CEDEAR EA RE 1/3 (U",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ORCL-PD",
+        "shortname": "Oracle Corporation Depositary S",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "910747711",
+    "issuer_name": "Orkla ASA",
+    "candidates": [
+      {
+        "symbol": "ORK.OL",
+        "shortname": "ORKLA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ORKLY",
+        "shortname": "Orkla ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0FIN.IL",
+        "shortname": "ORKLA ASA ORKLA ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OKL.DU",
+        "shortname": "Orkla ASA                     N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OKL.F",
+        "shortname": "Orkla ASA                     N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934406",
+    "issuer_name": "Outokumpu Oyj",
+    "candidates": [
+      {
+        "symbol": "OUT1V.HE",
+        "shortname": "Outokumpu Oyj",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OUT1VH.XC",
+        "shortname": "Outokumpu Oyj",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OUTA.F",
+        "shortname": "Outokumpu Oyj                 R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OUTA.SG",
+        "shortname": "Outokumpu Oyj",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "OUT1VH.XD",
+        "shortname": "Outokumpu Oyj",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "990906475",
+    "issuer_name": "Pareto Bank ASA",
+    "candidates": [
+      {
+        "symbol": "8PB.F",
+        "shortname": "Pareto Bank ASA               N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0RI3.L",
+        "shortname": "PARETO BANK ASA PARETO BANK ORD",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PARBO.OL",
+        "shortname": "Pareto Bank ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "8PB.SG",
+        "shortname": "Pareto Bank ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "8PB.MU",
+        "shortname": "Pareto Bank ASA               N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938443",
+    "issuer_name": "Platzer Fastigheter Holding AB",
+    "candidates": [
+      {
+        "symbol": "V8E.F",
+        "shortname": "Platzer Fastigh.Hldg AB (publ)N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PLAZBS.XC",
+        "shortname": "Platzer Fastigheter Holding AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "V8E.SG",
+        "shortname": "Platzer Fastigh.Hldg AB (publ)",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0QIA.IL",
+        "shortname": "PLATZER FASTIGHETER HOLDING AB ",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PLAZ-B.ST",
+        "shortname": "Platzer Fastigheter Holding AB ",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "985279721",
+    "issuer_name": "Protector Forsikring ASA",
+    "candidates": [
+      {
+        "symbol": "PROT.OL",
+        "shortname": "PROTECTOR FORSIKRING",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PSKRY",
+        "shortname": "Protector Forsikring ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PR40.F",
+        "shortname": "Protector Forsikring ASA      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PSKRF",
+        "shortname": "Protector Forsikring ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "PROTO.XC",
+        "shortname": "Protector Forsikring ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260003987",
+    "issuer_name": "RWE AG",
+    "candidates": [
+      {
+        "symbol": "RWE.DE",
+        "shortname": "RWE AG                        I",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "RWE.F",
+        "shortname": "RWE AG                        I",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "RWEOY",
+        "shortname": "RWE AG",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "RWEA.SG",
+        "shortname": "RWE AG (ADRs)",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "RWE.HA",
+        "shortname": "RWE AG                        I",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936202",
+    "issuer_name": "Ringkjøbing Landbobank A/S",
+    "candidates": []
+  },
+  {
+    "organization_number": "915691161",
+    "issuer_name": "Rogaland Sparebank",
+    "candidates": [
+      {
+        "symbol": "ROGS.OL",
+        "shortname": "ROGALAND SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0FWN.L",
+        "shortname": "SANDNES SPAREBANK SANDNES SPARE",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "P7A.SG",
+        "shortname": "Sandnes Sparebank",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ROGSO.XD",
+        "shortname": "Rogaland Sparebank",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "993153036",
+    "issuer_name": "Rogaland Sparebank Boligkreditt AS",
+    "candidates": []
+  },
+  {
+    "organization_number": "937885911",
+    "issuer_name": "Romerike Sparebank",
+    "candidates": [
+      {
+        "symbol": "92I.F",
+        "shortname": "Romerike Sparebank            N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "92I.SG",
+        "shortname": "Romerike Sparebank",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ROMER.OL",
+        "shortname": "ROMERIKE SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "92I.DU",
+        "shortname": "Romerike Sparebank            N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005042",
+    "issuer_name": "SAP SE",
+    "candidates": [
+      {
+        "symbol": "SAP",
+        "shortname": "SAP  SE",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAP.DE",
+        "shortname": "SAP SE                        I",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0NW4.IL",
+        "shortname": "SAP SE SAP ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAPA.MU",
+        "shortname": "SAP SE                        S",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAP.BA",
+        "shortname": "SAP SE CEDEAR EACH 6 REP 1",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "915174388",
+    "issuer_name": "SR-Boligkreditt AS",
+    "candidates": []
+  },
+  {
+    "organization_number": "101072299",
+    "issuer_name": "SSAB AB (publ)",
+    "candidates": [
+      {
+        "symbol": "SSAB-A.ST",
+        "shortname": "SSAB AB ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SSABBH.HE",
+        "shortname": "SSAB AB ser. B",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SSAB-B.ST",
+        "shortname": "SSAB AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SSABAS.XC",
+        "shortname": "SSAB AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0MHZ.IL",
+        "shortname": "SSAB AB SSAB ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "155617436",
+    "issuer_name": "Saab AB (publ)",
+    "candidates": [
+      {
+        "symbol": "SAAB-B.ST",
+        "shortname": "SAAB AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SDV1.F",
+        "shortname": "Saab AB                       N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAABY",
+        "shortname": "Saab AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAABF",
+        "shortname": "Saab AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAABBS.XC",
+        "shortname": "Saab AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "960514718",
+    "issuer_name": "SalMar ASA",
+    "candidates": [
+      {
+        "symbol": "JEP.F",
+        "shortname": "Salmar ASA                    N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SALM.OL",
+        "shortname": "SALMAR",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SALRY",
+        "shortname": "Salmar ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SALMO.OL",
+        "shortname": "SalMar ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SALRF",
+        "shortname": "SALMAR ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938071",
+    "issuer_name": "Samhällsbyggnadsbolaget i Norden AB (publ)",
+    "candidates": []
+  },
+  {
+    "organization_number": "199934554",
+    "issuer_name": "Sampo Oyj",
+    "candidates": [
+      {
+        "symbol": "SAMPO.HE",
+        "shortname": "Sampo Plc A",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SMP0.HA",
+        "shortname": "Sampo OYJ                     R",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SMP0.MU",
+        "shortname": "Sampo OYJ                     R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SMP0.DU",
+        "shortname": "Sampo OYJ                     R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SAMPOH.XD",
+        "shortname": "Sampo Oyj",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "100000446",
+    "issuer_name": "Sandvik AB (publ)",
+    "candidates": [
+      {
+        "symbol": "SAND.ST",
+        "shortname": "Sandvik AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SVKB.F",
+        "shortname": "SANDVIK AB                    N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SDVKF",
+        "shortname": "Sandvik AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SDVKY",
+        "shortname": "Sandvik AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SANDS.XC",
+        "shortname": "Sandvik AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938568",
+    "issuer_name": "Sandvik Treasury Aktiebolag (publ)",
+    "candidates": []
+  },
+  {
+    "organization_number": "199938861",
+    "issuer_name": "Sappi Papier Holding",
+    "candidates": []
+  },
+  {
+    "organization_number": "199939732",
+    "issuer_name": "Scandinavian Tobacco Group A/S",
+    "candidates": [
+      {
+        "symbol": "STBGY",
+        "shortname": "Scandinavian Tob Group AS",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "8ZI.DU",
+        "shortname": "Scandinavian Tobacco Group A/SN",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "8ZI.SG",
+        "shortname": "Scandinavian Tobacco Group A/S",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STG.CO",
+        "shortname": "Scandinavian Tobacco Group A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STGC.XC",
+        "shortname": "Scandinavian Tobacco Group A/S",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936531",
+    "issuer_name": "Securitas AB (publ)",
+    "candidates": [
+      {
+        "symbol": "SECU-B.ST",
+        "shortname": "Securitas AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0IAH.IL",
+        "shortname": "SECURITAS AB SECURITAS B ORD SH",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "S7M.MU",
+        "shortname": "Securitas AB                  N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SCTBY",
+        "shortname": "SECURITAS AB UNSP ADR EA REP 1 ",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "S7MB.F",
+        "shortname": "SECURITAS AB                  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260004245",
+    "issuer_name": "Securitas Treasury Ireland Designated Activity Company",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936759",
+    "issuer_name": "Skandinaviska Enskilda Banken AB",
+    "candidates": [
+      {
+        "symbol": "SEBC.F",
+        "shortname": "SKANDINAVISKA ENSKILDA BANKEN N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SEB-A.ST",
+        "shortname": "Skandinaviska Enskilda Banken s",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SEBA.DU",
+        "shortname": "SKANDINAVISKA ENSKILDA BANKEN N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SEBA.F",
+        "shortname": "SKANDINAVISKA ENSKILDA BANKEN N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SVKEF",
+        "shortname": "Skandinaviska Enskilda Banken A",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "837889812",
+    "issuer_name": "Skue Sparebank",
+    "candidates": [
+      {
+        "symbol": "0FE2.L",
+        "shortname": "SKUE SPAREBANK SKUE SPAREBANK O",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKUE.OL",
+        "shortname": "SKUE SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKUEO.XD",
+        "shortname": "Skue Sparebank",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936446",
+    "issuer_name": "Spar Nord Bank A/S",
+    "candidates": []
+  },
+  {
+    "organization_number": "952706365",
+    "issuer_name": "SpareBank 1 Nord-Norge",
+    "candidates": [
+      {
+        "symbol": "93S.F",
+        "shortname": "SpareBank 1 Nord-Norge        N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SPXXF",
+        "shortname": "SPAREBANK 1 NORD-NORGE",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NONGO.XC",
+        "shortname": "SpareBank 1 Nord Norge",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "93S.MU",
+        "shortname": "SpareBank 1 Nord-Norge        N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NO0006000801.SG",
+        "shortname": "SpareBank 1 Nord-Norge",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937899408",
+    "issuer_name": "SpareBank 1 Nordmøre",
+    "candidates": []
+  },
+  {
+    "organization_number": "937889275",
+    "issuer_name": "SpareBank 1 Ringerike Hadeland",
+    "candidates": [
+      {
+        "symbol": "RING.OL",
+        "shortname": "SPAREBANK 1 RINGERIKE HADELAND",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "S0M.SG",
+        "shortname": "SpareBank 1 Ringerike Hadeland",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "RINGO.XD",
+        "shortname": "SpareBank 1 Ringerike Hadeland",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0N01.L",
+        "shortname": "SPAREBANK 1 RINGERIKE HADELAND ",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937901003",
+    "issuer_name": "SpareBank 1 SMN",
+    "candidates": [
+      {
+        "symbol": "MING.OL",
+        "shortname": "SPAREBANK 1 SMN",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SJI.F",
+        "shortname": "SpareBank 1 SMN               G",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SJI.MU",
+        "shortname": "SpareBank 1 SMN               G",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SJI.SG",
+        "shortname": "SpareBank 1 SMN ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "MINGO.XC",
+        "shortname": "SpareBank 1 SMN",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937895321",
+    "issuer_name": "SpareBank 1 Sør-Norge ASA",
+    "candidates": []
+  },
+  {
+    "organization_number": "837884942",
+    "issuer_name": "SpareBank 1 Østfold Akershus",
+    "candidates": []
+  },
+  {
+    "organization_number": "920426530",
+    "issuer_name": "SpareBank 1 Østlandet",
+    "candidates": []
+  },
+  {
+    "organization_number": "937904029",
+    "issuer_name": "Sparebank 1 Helgeland",
+    "candidates": [
+      {
+        "symbol": "Z1D.SG",
+        "shortname": "SpareBank 1 Helgeland",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HELG.OL",
+        "shortname": "SPAREBANK 1 HELGELAND",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0EO8.L",
+        "shortname": "HELGELAND SPAREBANK HELGELAND S",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "HELGO.XD",
+        "shortname": "SpareBank 1 Helgeland",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937905378",
+    "issuer_name": "Sparebank 68 grader Nord",
+    "candidates": [
+      {
+        "symbol": "SB68.OL",
+        "shortname": "SPAREBANK 68 GRADER NORD",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937899319",
+    "issuer_name": "Sparebanken Møre",
+    "candidates": []
+  },
+  {
+    "organization_number": "832554332",
+    "issuer_name": "Sparebanken Norge",
+    "candidates": [
+      {
+        "symbol": "K7I.F",
+        "shortname": "Sparebanken Norge             G",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0G67.L",
+        "shortname": "SPAREBANKEN NORGE SPAREBANKEN N",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "K7I.SG",
+        "shortname": "Sparebanken Vest",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SPIZF",
+        "shortname": "SPAREBANKEN VEST",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SBNOR.OL",
+        "shortname": "SPAREBANKEN NORGE",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "992710691",
+    "issuer_name": "Sparebanken Norge Boligkreditt AS",
+    "candidates": []
+  },
+  {
+    "organization_number": "937888937",
+    "issuer_name": "Sparebanken Øst",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936735",
+    "issuer_name": "Stendörren Fastigheter AB",
+    "candidates": []
+  },
+  {
+    "organization_number": "199940347",
+    "issuer_name": "Stenhus Fastigheter i Norden AB (publ)",
+    "candidates": [
+      {
+        "symbol": "6XXH.F",
+        "shortname": "Stenhus Fastigheter i Norden  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SFAST.ST",
+        "shortname": "Stenhus Fastigheter i Norden AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "179348875",
+    "issuer_name": "Stora Enso Oyj",
+    "candidates": [
+      {
+        "symbol": "STERV.HE",
+        "shortname": "Stora Enso Oyj R",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STE-R.ST",
+        "shortname": "Stora Enso Oyj ser. R",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ENU.F",
+        "shortname": "STORA ENSO OYJ                R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ENUS.F",
+        "shortname": "STORA ENSO OYJ                R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ENUA.MU",
+        "shortname": "STORA ENSO OYJ                R",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "916300484",
+    "issuer_name": "Storebrand ASA",
+    "candidates": [
+      {
+        "symbol": "STB.OL",
+        "shortname": "STOREBRAND",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STBO.XC",
+        "shortname": "Storebrand ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKT.HA",
+        "shortname": "STOREBRAND ASA                N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SKT.DU",
+        "shortname": "STOREBRAND ASA                N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SREDY",
+        "shortname": "StoreBrand ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "953299216",
+    "issuer_name": "Storebrand Bank ASA",
+    "candidates": [
+      {
+        "symbol": "STORB77-PRO-ESG.OL",
+        "shortname": "Storebrand Bank ASA 25/28 FRN",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STORB72-PRO.OL",
+        "shortname": "Storebrand Bank ASA 23/26 FRN",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STORB76-PRO-ESG.OL",
+        "shortname": "Storebrand Bank ASA 24/28 FRN",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STORB74-PRO.OL",
+        "shortname": "Storebrand Bank ASA 24/27 FRN",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199939868",
+    "issuer_name": "Storskogen Group AB (publ)",
+    "candidates": [
+      {
+        "symbol": "STOR-B.ST",
+        "shortname": "Storskogen Group AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "STORCS.XC",
+        "shortname": "Storskogen Group AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0AA9.IL",
+        "shortname": "STORSKOGEN GROUP AB (PUBL) STOR",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0VK.F",
+        "shortname": "Storskogen Group AB           N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005636",
+    "issuer_name": "Sveafastigheter AB (publ)",
+    "candidates": [
+      {
+        "symbol": "008.F",
+        "shortname": "Sveafastigheter AB            N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SVEAF.ST",
+        "shortname": "Sveafastigheter AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936137",
+    "issuer_name": "Svenska Cellulosa AB SCA",
+    "candidates": [
+      {
+        "symbol": "SCA-B.ST",
+        "shortname": "Svenska Cellulosa AB SCA ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SCABS.XD",
+        "shortname": "Svenska Cellulosa AB SCA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SCABY",
+        "shortname": "SVENSKA CELLULOSA AB-SCA UNSPON",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SCAAS.XD",
+        "shortname": "Svenska Cellulosa AB SCA",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SCA-A.ST",
+        "shortname": "Svenska Cellulosa AB SCA ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199934589",
+    "issuer_name": "Svenska Handelsbanken AB (publ)",
+    "candidates": [
+      {
+        "symbol": "SHB-A.ST",
+        "shortname": "Svenska Handelsbanken ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SVNLY",
+        "shortname": "Svenska Handelsbanken AB PUBL",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SHB-B.ST",
+        "shortname": "Svenska Handelsbanken ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SVHG.F",
+        "shortname": "Svenska Handelsbanken AB      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SHBBS.XC",
+        "shortname": "Svenska Handelsbanken AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936802",
+    "issuer_name": "Swedbank AB (publ)",
+    "candidates": [
+      {
+        "symbol": "SWED-A.ST",
+        "shortname": "Swedbank AB ser A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "FRYA.F",
+        "shortname": "Swedbank AB                   N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SWEDAS.XC",
+        "shortname": "Swedbank AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0H6T.IL",
+        "shortname": "SWEDBANK AB SWEDBANK ORD SHS",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SWDBY",
+        "shortname": "Swedbank AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005605",
+    "issuer_name": "Swisscom Finance B.V.",
+    "candidates": []
+  },
+  {
+    "organization_number": "976695372",
+    "issuer_name": "TGS ASA",
+    "candidates": [
+      {
+        "symbol": "TGS.OL",
+        "shortname": "TGS ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TGSGY",
+        "shortname": "TGS ASA",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0MSJ.IL",
+        "shortname": "TGS NOPEC GEOPHYSICAL COMPANY A",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TGC.DU",
+        "shortname": "TGS ASA                       N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TGC.SG",
+        "shortname": "TGS Nopec Geophysical Co. ASA",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260000039",
+    "issuer_name": "Tele2 AB",
+    "candidates": [
+      {
+        "symbol": "TEL2-B.ST",
+        "shortname": "Tele2 AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NCY.DU",
+        "shortname": "Tele2 AB                      N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEL2-A.ST",
+        "shortname": "Tele2 AB ser. A",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "NCY.F",
+        "shortname": "Tele2 AB                      N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SSTEL2B.FGI",
+        "shortname": "FTSE Tele2 AB Index",
+        "exchange": "FGI",
+        "quote_type": "INDEX"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938797",
+    "issuer_name": "Telefonaktiebolaget L M Ericsson",
+    "candidates": [
+      {
+        "symbol": "ERCA.SG",
+        "shortname": "Ericsson B (ADRs)",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ERCG.MU",
+        "shortname": "Telefonaktiebolaget L.M.Erics.N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ERCG.SG",
+        "shortname": "Ericsson",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ERCA.MU",
+        "shortname": "Telefonaktiebolaget L.M.Erics.N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "ERCB.MU",
+        "shortname": "Telefonaktiebolaget L.M.Erics.N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "982463718",
+    "issuer_name": "Telenor ASA",
+    "candidates": [
+      {
+        "symbol": "TELNF",
+        "shortname": "Telenor ASA",
+        "exchange": "OQX",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEL.OL",
+        "shortname": "TELENOR",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEQ.HA",
+        "shortname": "Telenor ASA                   N",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEQ.DU",
+        "shortname": "Telenor ASA                   N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TEQ.F",
+        "shortname": "Telenor ASA                   N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936120",
+    "issuer_name": "Telia Company AB",
+    "candidates": [
+      {
+        "symbol": "TELIA1.HE",
+        "shortname": "Telia Company AB",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TELIA.ST",
+        "shortname": "Telia Company AB",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TLSNY",
+        "shortname": "Telia Company AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TLS.DU",
+        "shortname": "Telia Company AB              N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TLSNF",
+        "shortname": "TELIA COMPANY AB",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005881",
+    "issuer_name": "The Walt Disney Company",
+    "candidates": [
+      {
+        "symbol": "DIS",
+        "shortname": "Walt Disney Company (The)",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DISNEY19.BK",
+        "shortname": "DISNEY19_DR DISNEY#YUANTA",
+        "exchange": "SET",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1DIS.MI",
+        "shortname": "THE WALT DISNEY",
+        "exchange": "MIL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DISB34.SA",
+        "shortname": "WALT DISNEY DRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "DISN.BA",
+        "shortname": "WALT DISNEY COMPANY (THE) 12 CE",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005897",
+    "issuer_name": "Thermo Fisher Scientific Inc",
+    "candidates": [
+      {
+        "symbol": "TMO",
+        "shortname": "Thermo Fisher Scientific Inc",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TN80.F",
+        "shortname": "Thermo Fisher Scientific Inc. R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TMO.BA",
+        "shortname": "THERMO FISHER SCIENTIFIC INC CE",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TN8.DU",
+        "shortname": "Thermo Fisher Scientific Inc. R",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TMOD.BA",
+        "shortname": "THERMO FISHER SCIENTIFIC INC CE",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "937900775",
+    "issuer_name": "Tinde Sparebank",
+    "candidates": [
+      {
+        "symbol": "TINDE.OL",
+        "shortname": "TINDE SPAREBANK",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "927124238",
+    "issuer_name": "Tomra Systems ASA",
+    "candidates": [
+      {
+        "symbol": "TOM.OL",
+        "shortname": "TOMRA SYSTEMS",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TOMO.XC",
+        "shortname": "TOMRA Systems ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TMRA.HM",
+        "shortname": "Tomra Systems ASA             N",
+        "exchange": "HAM",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TMRAF",
+        "shortname": "Tomra Systems A/S/A",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "TMRA.MU",
+        "shortname": "Tomra Systems ASA             N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936679",
+    "issuer_name": "UPM-Kymmene Oyj",
+    "candidates": [
+      {
+        "symbol": "UPM.HE",
+        "shortname": "UPM-Kymmene Corporation",
+        "exchange": "HEL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "UPMH.XD",
+        "shortname": "UPM-Kymmene Oyj",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "UPMH.XC",
+        "shortname": "UPM-Kymmene Oyj",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "RPL.SG",
+        "shortname": "UPM Kymmene Corp.",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "UPMKF",
+        "shortname": "UPM-KYMMENE CORP",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005893",
+    "issuer_name": "UnitedHealth Group Incorporated",
+    "candidates": [
+      {
+        "symbol": "UNH",
+        "shortname": "UnitedHealth Group Incorporated",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "UNH.SN",
+        "shortname": "UNITEDHEALTH GROUP INC",
+        "exchange": "SGO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "UNHH34.SA",
+        "shortname": "UNITEDHEALTHDRN",
+        "exchange": "SAO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "1UNH.MI",
+        "shortname": "UNITEDHEALTH GROUP",
+        "exchange": "MIL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "UNH.F",
+        "shortname": "UNITEDHEALTH GROUP INC.       R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260005036",
+    "issuer_name": "VISA Inc.",
+    "candidates": [
+      {
+        "symbol": "V",
+        "shortname": "Visa Inc.",
+        "exchange": "NYQ",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "3V6.F",
+        "shortname": "VISA Inc.                     R",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VISA.VI",
+        "shortname": "VISA INC-CLASS A SHARES",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "3V64.DE",
+        "shortname": "VISA Inc.                     R",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "V.BA",
+        "shortname": "VISA INC CEDEARS (EACH 18 REP 1",
+        "exchange": "BUE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "933739384",
+    "issuer_name": "Vend Marketplaces ASA",
+    "candidates": [
+      {
+        "symbol": "SBSNY",
+        "shortname": "VEND MARKETPLACES ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "SBBTF",
+        "shortname": "SCHIBSTED ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "XPGB.F",
+        "shortname": "Vend Marketplaces ASA         N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0R9I.IL",
+        "shortname": "VEND MARKETPLACES ASA VEND MARK",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VEND.OL",
+        "shortname": "VEND MARKETPLACES ASA",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199936686",
+    "issuer_name": "Vestas Wind Systems A/S",
+    "candidates": [
+      {
+        "symbol": "VWS.CO",
+        "shortname": "Vestas Wind Systems A/S",
+        "exchange": "CPH",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VWDRY",
+        "shortname": "Vestas Wind Systems A/S",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VWSYF",
+        "shortname": "Vestas Wind Systems A/S",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VWSB.DU",
+        "shortname": "Vestas Wind Systems A/S       N",
+        "exchange": "DUS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VWSB.DE",
+        "shortname": "Vestas Wind Systems A/S       N",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938770",
+    "issuer_name": "Vodafone Group Plc",
+    "candidates": [
+      {
+        "symbol": "VOD",
+        "shortname": "Vodafone Group Plc",
+        "exchange": "NMS",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOD.L",
+        "shortname": "VODAFONE GROUP PLC ORD USD0.20 ",
+        "exchange": "LSE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VODI.DE",
+        "shortname": "Vodafone Group PLC            R",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOD.VI",
+        "shortname": "VODAFONE GROUP PLC-SP ADR",
+        "exchange": "VIE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VODJ.HA",
+        "shortname": "Vodafone Group PLC            R",
+        "exchange": "HAN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199938860",
+    "issuer_name": "Volkswagen AG",
+    "candidates": [
+      {
+        "symbol": "VOW.DE",
+        "shortname": "VOLKSWAGEN AG                 I",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOW3.DE",
+        "shortname": "VOLKSWAGEN AG                 V",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOW.PR",
+        "shortname": "VOLKSWAGEN AG",
+        "exchange": "PRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VWAGY",
+        "shortname": "Volkswagen AG",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOWA.MU",
+        "shortname": "Volkswagen AG                 N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199937854",
+    "issuer_name": "Volvo Car AB",
+    "candidates": [
+      {
+        "symbol": "VOLCAR-B.ST",
+        "shortname": "Volvo Car AB ser. B",
+        "exchange": "STO",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "8JO1.F",
+        "shortname": "Volvo Car AB                  N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOLCBS.XC",
+        "shortname": "Volvo Car AB",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "0AAK.IL",
+        "shortname": "VOLVO CAR AB VOLVO CAR ORD SHS ",
+        "exchange": "IOB",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VOLCBS.XD",
+        "shortname": "Volvo Car AB",
+        "exchange": "DXE",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "130985892",
+    "issuer_name": "Volvo Treasury AB",
+    "candidates": []
+  },
+  {
+    "organization_number": "260003089",
+    "issuer_name": "Vonovia SE",
+    "candidates": [
+      {
+        "symbol": "VNA.DE",
+        "shortname": "Vonovia SE                    N",
+        "exchange": "GER",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VNAA.F",
+        "shortname": "Vonovia SE                    N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VNAD.XC",
+        "shortname": "Vonovia SE",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VNA.F",
+        "shortname": "Vonovia SE                    N",
+        "exchange": "FRA",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "VNAA.SG",
+        "shortname": "Vonovia SE (ADRs)",
+        "exchange": "STU",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "260002891",
+    "issuer_name": "Vår Energi ASA",
+    "candidates": []
+  },
+  {
+    "organization_number": "986228608",
+    "issuer_name": "Yara International ASA",
+    "candidates": [
+      {
+        "symbol": "YAR.OL",
+        "shortname": "YARA INTERNATIONAL",
+        "exchange": "OSL",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "YARIY",
+        "shortname": "Yara International ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "YARO.XC",
+        "shortname": "Yara International ASA",
+        "exchange": "CXE",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "YRAIF",
+        "shortname": "YARA INTERNATIONAL ASA",
+        "exchange": "PNK",
+        "quote_type": "EQUITY"
+      },
+      {
+        "symbol": "IU20.MU",
+        "shortname": "Yara International ASA        N",
+        "exchange": "MUN",
+        "quote_type": "EQUITY"
+      }
+    ]
+  },
+  {
+    "organization_number": "199935267",
+    "issuer_name": "Ålandsbanken Abp",
+    "candidates": []
+  },
+  {
+    "organization_number": "199936712",
+    "issuer_name": "Ørsted A/S",
+    "candidates": []
+  }
+]

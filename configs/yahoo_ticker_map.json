@@ -1,0 +1,1124 @@
+[
+  {
+    "organization_number": "100000337",
+    "issuer_name": "A.P. Møller - Mærsk A/S",
+    "yahoo_ticker": "MAERSK-B.CO",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "134016864",
+    "issuer_name": "AB SKF",
+    "yahoo_ticker": "SKF-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "100000440",
+    "issuer_name": "AB Sagax (publ)",
+    "yahoo_ticker": "SAGA-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260003318",
+    "issuer_name": "ABB Ltd",
+    "yahoo_ticker": "ABB.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260005045",
+    "issuer_name": "ADOBE INC.",
+    "yahoo_ticker": "ADBE",
+    "notes": "auto-selected from fallback shortlist (NMS, score=182)"
+  },
+  {
+    "organization_number": "199936189",
+    "issuer_name": "AL Sydbank A/S",
+    "yahoo_ticker": "ALSYDB.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "199939274",
+    "issuer_name": "ALM Brand A/S",
+    "yahoo_ticker": "1AM.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "937903502",
+    "issuer_name": "Aasen Sparebank",
+    "yahoo_ticker": "AASB.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "183562096",
+    "issuer_name": "Akelius Residential Property AB (publ)",
+    "yahoo_ticker": "",
+    "notes": "manual review: no confident Yahoo equity match"
+  },
+  {
+    "organization_number": "886581432",
+    "issuer_name": "Aker ASA",
+    "yahoo_ticker": "FKM.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "989795848",
+    "issuer_name": "Aker BP ASA",
+    "yahoo_ticker": "ARC.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "199935100",
+    "issuer_name": "Aktia Bank Abp",
+    "yahoo_ticker": "0QF8.L",
+    "notes": "auto-selected from fallback shortlist (LSE, score=186)"
+  },
+  {
+    "organization_number": "260004949",
+    "issuer_name": "Aktieselskabet Schouw & Co.",
+    "yahoo_ticker": "SCHO.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=166)"
+  },
+  {
+    "organization_number": "199938567",
+    "issuer_name": "Alfa Laval AB",
+    "yahoo_ticker": "ALFA.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199936642",
+    "issuer_name": "Alfa Laval Treasury International AB (publ)",
+    "yahoo_ticker": "ALFA.ST",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "199937403",
+    "issuer_name": "Alimentation Couche-Tard Inc.",
+    "yahoo_ticker": "CJA1.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199938755",
+    "issuer_name": "Allianz SE",
+    "yahoo_ticker": "ALV.DE",
+    "notes": "auto-selected from fallback shortlist (GER, score=140)"
+  },
+  {
+    "organization_number": "199934937",
+    "issuer_name": "Arion Banki hf",
+    "yahoo_ticker": "ARION-SDB.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "106083008",
+    "issuer_name": "Assa Abloy AB",
+    "yahoo_ticker": "ASSA-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260003481",
+    "issuer_name": "AstraZeneca PLC",
+    "yahoo_ticker": "AZN.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "920237126",
+    "issuer_name": "Atea ASA",
+    "yahoo_ticker": "MKL.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199936663",
+    "issuer_name": "Atlas Copco AB",
+    "yahoo_ticker": "ATCO-A.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199936278",
+    "issuer_name": "Atrium Ljungberg AB (publ)",
+    "yahoo_ticker": "ATRLJ-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "937885644",
+    "issuer_name": "Aurskog Sparebank",
+    "yahoo_ticker": "AURG.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "929975200",
+    "issuer_name": "Austevoll Seafood ASA",
+    "yahoo_ticker": "Z85.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199938117",
+    "issuer_name": "Autoliv Inc",
+    "yahoo_ticker": "ALIV-SDB.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199937853",
+    "issuer_name": "BNP Paribas SA",
+    "yahoo_ticker": "0HB5.IL",
+    "notes": "auto-selected from fallback shortlist (IOB, score=160)"
+  },
+  {
+    "organization_number": "199938389",
+    "issuer_name": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "yahoo_ticker": "BBVA",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "199938502",
+    "issuer_name": "Bayer AG",
+    "yahoo_ticker": "BAYN.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "998753562",
+    "issuer_name": "Borregaard ASA",
+    "yahoo_ticker": "BRGO.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199936574",
+    "issuer_name": "Carlsberg Breweries A/S",
+    "yahoo_ticker": "CARL-B.CO",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "181305440",
+    "issuer_name": "Castellum AB",
+    "yahoo_ticker": "CAST.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199938447",
+    "issuer_name": "Catena AB",
+    "yahoo_ticker": "CATE.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199934341",
+    "issuer_name": "Citycon Oyj",
+    "yahoo_ticker": "CTY1S.HE",
+    "notes": "auto-selected from fallback shortlist (HEL, score=196)"
+  },
+  {
+    "organization_number": "260002879",
+    "issuer_name": "Coloplast A/S",
+    "yahoo_ticker": "COLO-B.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "252536604",
+    "issuer_name": "Commerzbank AG",
+    "yahoo_ticker": "ZZMS.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "108520479",
+    "issuer_name": "Corem Property Group AB (publ)",
+    "yahoo_ticker": "BJV0.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=160)"
+  },
+  {
+    "organization_number": "147805458",
+    "issuer_name": "DFDS A/S",
+    "yahoo_ticker": "DFDS.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "984851006",
+    "issuer_name": "DNB Bank ASA",
+    "yahoo_ticker": "DNB.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199936490",
+    "issuer_name": "DSV A/S",
+    "yahoo_ticker": "DSV.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "199936751",
+    "issuer_name": "Danske Bank A/S",
+    "yahoo_ticker": "DANSKE.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "199938138",
+    "issuer_name": "Deutsche Bank AG",
+    "yahoo_ticker": "DB",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "199936643",
+    "issuer_name": "Dometic Group Ab (publ)",
+    "yahoo_ticker": "DOM.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199939997",
+    "issuer_name": "EQT AB",
+    "yahoo_ticker": "EQT.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "100000445",
+    "issuer_name": "Electrolux AB (publ)",
+    "yahoo_ticker": "ELUX-B.ST",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "120942809",
+    "issuer_name": "Elekta AB (publ)",
+    "yahoo_ticker": "EKTA-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260005063",
+    "issuer_name": "Elevance Health Inc",
+    "yahoo_ticker": "ELV",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "199934619",
+    "issuer_name": "Elisa Oyj",
+    "yahoo_ticker": "ELISAH.XC",
+    "notes": "auto-selected from fallback shortlist (CXE, score=158)"
+  },
+  {
+    "organization_number": "911382008",
+    "issuer_name": "Elkem ASA",
+    "yahoo_ticker": "ELKO.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "811413682",
+    "issuer_name": "Elopak ASA",
+    "yahoo_ticker": "ELO.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "999296432",
+    "issuer_name": "Entra ASA",
+    "yahoo_ticker": "2EN.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199938697",
+    "issuer_name": "Epiroc Aktiebolag",
+    "yahoo_ticker": "EPOAY",
+    "notes": "auto-selected from fallback shortlist (PNK, score=135)"
+  },
+  {
+    "organization_number": "923609016",
+    "issuer_name": "Equinor ASA",
+    "yahoo_ticker": "EQNR",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "199938034",
+    "issuer_name": "Essity AB",
+    "yahoo_ticker": "ESSITY-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260004735",
+    "issuer_name": "Euroclear: TRATON FINANCE LUXEMBOURG S.A.",
+    "yahoo_ticker": "8TRA.DE",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "198403405",
+    "issuer_name": "Fabege AB (publ)",
+    "yahoo_ticker": "FABG.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "153033241",
+    "issuer_name": "FastPartner AB (publ)",
+    "yahoo_ticker": "FPAR-A.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "131799428",
+    "issuer_name": "Fastighets AB Balder (publ)",
+    "yahoo_ticker": "BALD-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260004739",
+    "issuer_name": "Ferrovial SE",
+    "yahoo_ticker": "FER.AS",
+    "notes": "auto-selected from fallback shortlist (AMS, score=184)"
+  },
+  {
+    "organization_number": "199936132",
+    "issuer_name": "Finnair Plc.",
+    "yahoo_ticker": "FIA1S.HE",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199934805",
+    "issuer_name": "Fortum Oyj",
+    "yahoo_ticker": "FOT.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199937619",
+    "issuer_name": "Føroya Banki P/F",
+    "yahoo_ticker": "BNW.F",
+    "notes": "manual name match (available Yahoo symbol)"
+  },
+  {
+    "organization_number": "995568217",
+    "issuer_name": "Gjensidige Forsikring ASA",
+    "yahoo_ticker": "XGJ.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "136282765",
+    "issuer_name": "Golar LNG Limited",
+    "yahoo_ticker": "GLNG",
+    "notes": "auto-selected from fallback shortlist (NMS, score=182)"
+  },
+  {
+    "organization_number": "199938867",
+    "issuer_name": "H & M Hennes & Mauritz AB",
+    "yahoo_ticker": "HMSB.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199939675",
+    "issuer_name": "H. Lundbeck A/S",
+    "yahoo_ticker": "HLUN-A.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "837895502",
+    "issuer_name": "Haugesund Sparebank",
+    "yahoo_ticker": "HGSB.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199938639",
+    "issuer_name": "Heba Fastighets Aktiebolag",
+    "yahoo_ticker": "HEBA-B.ST",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199936636",
+    "issuer_name": "Heimstaden AB (publ)",
+    "yahoo_ticker": "HEIM-PREF.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199937581",
+    "issuer_name": "Hoist Finance AB (publ)",
+    "yahoo_ticker": "HOFI.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199626114",
+    "issuer_name": "Holmen AB (publ)",
+    "yahoo_ticker": "HOLM-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199934473",
+    "issuer_name": "Huhtamäki Oyj",
+    "yahoo_ticker": "HUH1V.HE",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199933795",
+    "issuer_name": "Husqvarna AB",
+    "yahoo_ticker": "HUSQ-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "200319745",
+    "issuer_name": "Industrivärden AB (publ)",
+    "yahoo_ticker": "INDU-C.ST",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199938369",
+    "issuer_name": "Indutrade AB (publ)",
+    "yahoo_ticker": "INDT.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199940357",
+    "issuer_name": "International Petroleum Corporation",
+    "yahoo_ticker": "IPCO.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "111273386",
+    "issuer_name": "Intrum AB",
+    "yahoo_ticker": "INTRUM.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199938391",
+    "issuer_name": "Investment AB Latour (publ)",
+    "yahoo_ticker": "LATO-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199936508",
+    "issuer_name": "Investor AB",
+    "yahoo_ticker": "INVE-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "252230673",
+    "issuer_name": "Islandsbanki hf (Íslandsbanki)",
+    "yahoo_ticker": "ISB.IC",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199936174",
+    "issuer_name": "Jyske Bank A/S",
+    "yahoo_ticker": "JYSK.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "199936429",
+    "issuer_name": "Jyske Realkredit A/S",
+    "yahoo_ticker": "JYSK.CO",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "937895976",
+    "issuer_name": "Jæren Sparebank",
+    "yahoo_ticker": "JARENO.XD",
+    "notes": "manual name match (available Yahoo symbol)"
+  },
+  {
+    "organization_number": "260003730",
+    "issuer_name": "KRUK S.A.",
+    "yahoo_ticker": "83I.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "260005043",
+    "issuer_name": "Kering SA",
+    "yahoo_ticker": "KERP.XD",
+    "notes": "auto-selected from fallback shortlist (DXE, score=158)"
+  },
+  {
+    "organization_number": "260005070",
+    "issuer_name": "Keysight Technologies Inc",
+    "yahoo_ticker": "KEYS",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "199935978",
+    "issuer_name": "Kojamo Oyj",
+    "yahoo_ticker": "KOJAMH.XD",
+    "notes": "auto-selected from fallback shortlist (DXE, score=158)"
+  },
+  {
+    "organization_number": "942593821",
+    "issuer_name": "Kongsberg Automotive ASA",
+    "yahoo_ticker": "K3A.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "943753709",
+    "issuer_name": "Kongsberg Gruppen ASA",
+    "yahoo_ticker": "KOG.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=164)"
+  },
+  {
+    "organization_number": "199937293",
+    "issuer_name": "Kvika banki hf.",
+    "yahoo_ticker": "KVIKA.IC",
+    "notes": "auto-selected from fallback shortlist (ICE, score=194)"
+  },
+  {
+    "organization_number": "111902467",
+    "issuer_name": "L E Lundbergföretagen AB",
+    "yahoo_ticker": "LUND-B.ST",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "975350940",
+    "issuer_name": "Lerøy Seafood Group ASA",
+    "yahoo_ticker": "LSG.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199936702",
+    "issuer_name": "Loomis AB",
+    "yahoo_ticker": "LOOMIS.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199939029",
+    "issuer_name": "Mandatum Life Insurance Company Limited",
+    "yahoo_ticker": "MANTA.HE",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "260005954",
+    "issuer_name": "McCormick & Company Inc",
+    "yahoo_ticker": "MKC",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=148)"
+  },
+  {
+    "organization_number": "937901291",
+    "issuer_name": "Melhus Sparebank",
+    "yahoo_ticker": "MELG.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199936672",
+    "issuer_name": "Mercedes-Benz Group AG",
+    "yahoo_ticker": "MBG.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "199936153",
+    "issuer_name": "Metso Oyj",
+    "yahoo_ticker": "METSO.HE",
+    "notes": "auto-selected from fallback shortlist (HEL, score=196)"
+  },
+  {
+    "organization_number": "199936520",
+    "issuer_name": "Metsä Board Oyj",
+    "yahoo_ticker": "METSB.HE",
+    "notes": "auto-selected from fallback shortlist (HEL, score=196)"
+  },
+  {
+    "organization_number": "260005071",
+    "issuer_name": "Microsoft Corporation",
+    "yahoo_ticker": "MSFT",
+    "notes": "auto-selected from fallback shortlist (NMS, score=182)"
+  },
+  {
+    "organization_number": "101187763",
+    "issuer_name": "Millicom International Cellular S.A.",
+    "yahoo_ticker": "TIGO",
+    "notes": "auto-selected from fallback shortlist (NMS, score=182)"
+  },
+  {
+    "organization_number": "964118191",
+    "issuer_name": "Mowi ASA",
+    "yahoo_ticker": "PND.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "260003994",
+    "issuer_name": "National Grid PLC",
+    "yahoo_ticker": "NG.L",
+    "notes": "auto-selected from fallback shortlist (LSE, score=186)"
+  },
+  {
+    "organization_number": "199934503",
+    "issuer_name": "Neste Oyj",
+    "yahoo_ticker": "NEF.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "199936681",
+    "issuer_name": "Nokia Oyj",
+    "yahoo_ticker": "0K8D.L",
+    "notes": "auto-selected from fallback shortlist (LSE, score=186)"
+  },
+  {
+    "organization_number": "199936757",
+    "issuer_name": "Nordea Bank Abp",
+    "yahoo_ticker": "NDA-DK.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "966011726",
+    "issuer_name": "Nordic Semiconductor ASA",
+    "yahoo_ticker": "NODO.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199937985",
+    "issuer_name": "Norion Bank AB",
+    "yahoo_ticker": "NORION.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "914778271",
+    "issuer_name": "Norsk Hydro ASA",
+    "yahoo_ticker": "NOHA.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "260002713",
+    "issuer_name": "Novo Nordisk A/S",
+    "yahoo_ticker": "NOVO-B.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "260005685",
+    "issuer_name": "Novonesis A/S",
+    "yahoo_ticker": "NZM2.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "914594685",
+    "issuer_name": "Olav Thon Eiendomsselskap ASA",
+    "yahoo_ticker": "OLT.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199936581",
+    "issuer_name": "Oma Säästöpankki Oy",
+    "yahoo_ticker": "OMASP.HE",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "260005970",
+    "issuer_name": "Oracle Corporation",
+    "yahoo_ticker": "ORCL",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "910747711",
+    "issuer_name": "Orkla ASA",
+    "yahoo_ticker": "OKL.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199934406",
+    "issuer_name": "Outokumpu Oyj",
+    "yahoo_ticker": "OUT1V.HE",
+    "notes": "auto-selected from fallback shortlist (HEL, score=196)"
+  },
+  {
+    "organization_number": "990906475",
+    "issuer_name": "Pareto Bank ASA",
+    "yahoo_ticker": "PARBO.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199938443",
+    "issuer_name": "Platzer Fastigheter Holding AB",
+    "yahoo_ticker": "PLAZ-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "985279721",
+    "issuer_name": "Protector Forsikring ASA",
+    "yahoo_ticker": "PR40.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "260003987",
+    "issuer_name": "RWE AG",
+    "yahoo_ticker": "RWE.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199936202",
+    "issuer_name": "Ringkjøbing Landbobank A/S",
+    "yahoo_ticker": "RILBA.CO",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "915691161",
+    "issuer_name": "Rogaland Sparebank",
+    "yahoo_ticker": "ROGS.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "993153036",
+    "issuer_name": "Rogaland Sparebank Boligkreditt AS",
+    "yahoo_ticker": "ROGS.OL",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "937885911",
+    "issuer_name": "Romerike Sparebank",
+    "yahoo_ticker": "ROMER.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "260005042",
+    "issuer_name": "SAP SE",
+    "yahoo_ticker": "SAP",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "915174388",
+    "issuer_name": "SR-Boligkreditt AS",
+    "yahoo_ticker": "SRBNK.OL",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "101072299",
+    "issuer_name": "SSAB AB (publ)",
+    "yahoo_ticker": "SSAB-A.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "155617436",
+    "issuer_name": "Saab AB (publ)",
+    "yahoo_ticker": "SAAB-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "960514718",
+    "issuer_name": "SalMar ASA",
+    "yahoo_ticker": "SALMO.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199938071",
+    "issuer_name": "Samhällsbyggnadsbolaget i Norden AB (publ)",
+    "yahoo_ticker": "SBB-B.ST",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199934554",
+    "issuer_name": "Sampo Oyj",
+    "yahoo_ticker": "SMP0.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "100000446",
+    "issuer_name": "Sandvik AB (publ)",
+    "yahoo_ticker": "SAND.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199938568",
+    "issuer_name": "Sandvik Treasury Aktiebolag (publ)",
+    "yahoo_ticker": "SAND.ST",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "199938861",
+    "issuer_name": "Sappi Papier Holding",
+    "yahoo_ticker": "SAP.JO",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "199939732",
+    "issuer_name": "Scandinavian Tobacco Group A/S",
+    "yahoo_ticker": "STG.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "199936531",
+    "issuer_name": "Securitas AB (publ)",
+    "yahoo_ticker": "SECU-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260004245",
+    "issuer_name": "Securitas Treasury Ireland Designated Activity Company",
+    "yahoo_ticker": "SECU-B.ST",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "199936759",
+    "issuer_name": "Skandinaviska Enskilda Banken AB",
+    "yahoo_ticker": "SEB-A.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "837889812",
+    "issuer_name": "Skue Sparebank",
+    "yahoo_ticker": "SKUE.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199936446",
+    "issuer_name": "Spar Nord Bank A/S",
+    "yahoo_ticker": "SPNO.CO",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "952706365",
+    "issuer_name": "SpareBank 1 Nord-Norge",
+    "yahoo_ticker": "93S.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "937899408",
+    "issuer_name": "SpareBank 1 Nordmøre",
+    "yahoo_ticker": "",
+    "notes": "manual review: no confident Yahoo equity match"
+  },
+  {
+    "organization_number": "937889275",
+    "issuer_name": "SpareBank 1 Ringerike Hadeland",
+    "yahoo_ticker": "RING.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "937901003",
+    "issuer_name": "SpareBank 1 SMN",
+    "yahoo_ticker": "MING.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "937895321",
+    "issuer_name": "SpareBank 1 Sør-Norge ASA",
+    "yahoo_ticker": "SOR.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "837884942",
+    "issuer_name": "SpareBank 1 Østfold Akershus",
+    "yahoo_ticker": "",
+    "notes": "manual review: no confident Yahoo equity match"
+  },
+  {
+    "organization_number": "920426530",
+    "issuer_name": "SpareBank 1 Østlandet",
+    "yahoo_ticker": "SPOL.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "937904029",
+    "issuer_name": "Sparebank 1 Helgeland",
+    "yahoo_ticker": "HELG.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "937905378",
+    "issuer_name": "Sparebank 68 grader Nord",
+    "yahoo_ticker": "SB68.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "937899319",
+    "issuer_name": "Sparebanken Møre",
+    "yahoo_ticker": "MORG.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "832554332",
+    "issuer_name": "Sparebanken Norge",
+    "yahoo_ticker": "SBNOR.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "992710691",
+    "issuer_name": "Sparebanken Norge Boligkreditt AS",
+    "yahoo_ticker": "SBNOR.OL",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "937888937",
+    "issuer_name": "Sparebanken Øst",
+    "yahoo_ticker": "SPOG.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199936735",
+    "issuer_name": "Stendörren Fastigheter AB",
+    "yahoo_ticker": "STEF-B.ST",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199940347",
+    "issuer_name": "Stenhus Fastigheter i Norden AB (publ)",
+    "yahoo_ticker": "SFAST.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "179348875",
+    "issuer_name": "Stora Enso Oyj",
+    "yahoo_ticker": "STE-R.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "916300484",
+    "issuer_name": "Storebrand ASA",
+    "yahoo_ticker": "SKT.DU",
+    "notes": "auto-selected from fallback shortlist (DUS, score=178)"
+  },
+  {
+    "organization_number": "953299216",
+    "issuer_name": "Storebrand Bank ASA",
+    "yahoo_ticker": "STORB77-PRO-ESG.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199939868",
+    "issuer_name": "Storskogen Group AB (publ)",
+    "yahoo_ticker": "STOR-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260005636",
+    "issuer_name": "Sveafastigheter AB (publ)",
+    "yahoo_ticker": "SVEAF.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199936137",
+    "issuer_name": "Svenska Cellulosa AB SCA",
+    "yahoo_ticker": "SCA-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199934589",
+    "issuer_name": "Svenska Handelsbanken AB (publ)",
+    "yahoo_ticker": "SHB-A.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199936802",
+    "issuer_name": "Swedbank AB (publ)",
+    "yahoo_ticker": "SWED-A.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260005605",
+    "issuer_name": "Swisscom Finance B.V.",
+    "yahoo_ticker": "SCMN.SW",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "976695372",
+    "issuer_name": "TGS ASA",
+    "yahoo_ticker": "TGS.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "260000039",
+    "issuer_name": "Tele2 AB",
+    "yahoo_ticker": "TEL2-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "199938797",
+    "issuer_name": "Telefonaktiebolaget L M Ericsson",
+    "yahoo_ticker": "ERCG.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=128)"
+  },
+  {
+    "organization_number": "982463718",
+    "issuer_name": "Telenor ASA",
+    "yahoo_ticker": "TEQ.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "199936120",
+    "issuer_name": "Telia Company AB",
+    "yahoo_ticker": "TELIA.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "260005881",
+    "issuer_name": "The Walt Disney Company",
+    "yahoo_ticker": "DIS",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "260005897",
+    "issuer_name": "Thermo Fisher Scientific Inc",
+    "yahoo_ticker": "TMO",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "937900775",
+    "issuer_name": "Tinde Sparebank",
+    "yahoo_ticker": "TINDE.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "927124238",
+    "issuer_name": "Tomra Systems ASA",
+    "yahoo_ticker": "TMRA.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "199936679",
+    "issuer_name": "UPM-Kymmene Oyj",
+    "yahoo_ticker": "UPM.HE",
+    "notes": "auto-selected from fallback shortlist (HEL, score=162)"
+  },
+  {
+    "organization_number": "260005893",
+    "issuer_name": "UnitedHealth Group Incorporated",
+    "yahoo_ticker": "UNH",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "260005036",
+    "issuer_name": "VISA Inc.",
+    "yahoo_ticker": "V",
+    "notes": "auto-selected from fallback shortlist (NYQ, score=182)"
+  },
+  {
+    "organization_number": "933739384",
+    "issuer_name": "Vend Marketplaces ASA",
+    "yahoo_ticker": "VEND.OL",
+    "notes": "auto-selected from fallback shortlist (OSL, score=198)"
+  },
+  {
+    "organization_number": "199936686",
+    "issuer_name": "Vestas Wind Systems A/S",
+    "yahoo_ticker": "VWS.CO",
+    "notes": "auto-selected from fallback shortlist (CPH, score=200)"
+  },
+  {
+    "organization_number": "199938770",
+    "issuer_name": "Vodafone Group Plc",
+    "yahoo_ticker": "VOD.L",
+    "notes": "auto-selected from fallback shortlist (LSE, score=186)"
+  },
+  {
+    "organization_number": "199938860",
+    "issuer_name": "Volkswagen AG",
+    "yahoo_ticker": "VOWA.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "199937854",
+    "issuer_name": "Volvo Car AB",
+    "yahoo_ticker": "VOLCAR-B.ST",
+    "notes": "auto-selected from STO suggestion"
+  },
+  {
+    "organization_number": "130985892",
+    "issuer_name": "Volvo Treasury AB",
+    "yahoo_ticker": "VOLV-B.ST",
+    "notes": "manual name match (parent proxy)"
+  },
+  {
+    "organization_number": "260003089",
+    "issuer_name": "Vonovia SE",
+    "yahoo_ticker": "VNAA.F",
+    "notes": "auto-selected from fallback shortlist (FRA, score=180)"
+  },
+  {
+    "organization_number": "260002891",
+    "issuer_name": "Vår Energi ASA",
+    "yahoo_ticker": "VAR.OL",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "986228608",
+    "issuer_name": "Yara International ASA",
+    "yahoo_ticker": "IU20.MU",
+    "notes": "auto-selected from fallback shortlist (MUN, score=178)"
+  },
+  {
+    "organization_number": "199935267",
+    "issuer_name": "Ålandsbanken Abp",
+    "yahoo_ticker": "ALBAV.HE",
+    "notes": "manual name match (direct listing)"
+  },
+  {
+    "organization_number": "199936712",
+    "issuer_name": "Ørsted A/S",
+    "yahoo_ticker": "ORSTED.CO",
+    "notes": "manual name match (direct listing)"
+  }
+]
