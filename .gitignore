@@ -199,6 +199,12 @@ cython_debug/
 # Learn more at https://abstra.io/docs
 .abstra/
 
+# Step 2 generated artifacts (large/reproducible)
+outputs/02_trained_models/
+outputs/04_plots/
+outputs/06_predictions/
+*.joblib
+
 # Visual Studio Code
 #  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
