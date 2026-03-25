@@ -217,7 +217,7 @@ Step 2 is now implemented as a config-driven training pipeline for all required 
 
 ### Key files
 
-- [configs/experiment_config.yaml](configs/experiment_config.yaml)
+- [configs/experiment_config.yaml](configs/experiment_config.yaml) IMPORTANT THIS IS ALL THE CONFIG FOR THE EXPERIMENT
 - [src/run_experiments.py](src/run_experiments.py)
 - [src/data/load_dataset.py](src/data/load_dataset.py)
 - [src/data/split_data.py](src/data/split_data.py)
