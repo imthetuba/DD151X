@@ -1,5 +1,5 @@
 {
-  "input_file": "data/curated_rated_esg_dataset_max_rows.csv",
+  "input_file": "data/curated_rated_esg_dataset.csv",
   "output_file": "data/modeling_dataset_step1.csv",
   "feature_dictionary_file": "data/feature_dictionary_step1.json",
   "risk_class_mapping": {
