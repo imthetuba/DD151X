@@ -77,6 +77,21 @@ def _raise_for_api_error(response: requests.Response) -> None:
     raise StamdataError(f"HTTP {response.status_code}: {message}")
 
 
+def _extract_job_id_from_payload(data: Any) -> str | None:
+    if not isinstance(data, dict):
+        return None
+
+    for candidate in (data, data.get("Data"), data.get("data")):
+        if not isinstance(candidate, dict):
+            continue
+        for key in ("JobId", "jobId", "ID", "id", "Id"):
+            job_id = candidate.get(key)
+            if job_id:
+                return str(job_id)
+
+    return None
+
+
 class StamdataClient:
     def __init__(self, api_url: str, api_key: str, timeout: int = 60) -> None:
         self.api_url = api_url.rstrip("/")
@@ -97,22 +112,39 @@ class StamdataClient:
         return f"{self.api_url}/{endpoint_or_url.lstrip('/')}"
 
     def create_feed_job(self, endpoint: str, payload: dict[str, Any] | None = None) -> str:
-        response = self.session.post(self._absolute(endpoint), json=payload or {}, timeout=self.timeout)
-        _raise_for_api_error(response)
+        max_attempts = 20
+        wait_seconds = 10
 
-        data = response.json()
+        for attempt in range(1, max_attempts + 1):
+            response = self.session.post(self._absolute(endpoint), json=payload or {}, timeout=self.timeout)
 
-        # Some endpoints return the created job id directly, while others wrap it.
-        if isinstance(data, dict):
-            for candidate in (data, data.get("Data"), data.get("data")):
-                if not isinstance(candidate, dict):
-                    continue
-                for key in ("JobId", "jobId", "ID", "id", "Id"):
-                    job_id = candidate.get(key)
-                    if job_id:
-                        return str(job_id)
+            if response.ok:
+                data = response.json()
+                job_id = _extract_job_id_from_payload(data)
+                if job_id:
+                    return job_id
+                raise StamdataError(f"Could not locate job id in response: {data}")
 
-        raise StamdataError(f"Could not locate job id in response: {data}")
+            payload_json = _safe_json(response)
+            detail = payload_json.get("detail") if isinstance(payload_json, dict) else ""
+            if (
+                response.status_code == 409
+                and isinstance(detail, str)
+                and "running job of same type" in detail.lower()
+                and attempt < max_attempts
+            ):
+                print(
+                    f"Feed {endpoint} already has a running job (attempt {attempt}/{max_attempts}); "
+                    f"waiting {wait_seconds}s before retry..."
+                )
+                time.sleep(wait_seconds)
+                continue
+
+            _raise_for_api_error(response)
+
+        raise StamdataError(
+            f"Could not create feed job for endpoint {endpoint} after {max_attempts} attempts"
+        )
 
     def poll_job(self, job_id: str, poll_interval: int = 10, timeout_seconds: int = 1800) -> JobResult:
         status_url = self._absolute(f"/api/v1/feed/{job_id}")
@@ -125,7 +157,13 @@ class StamdataClient:
 
             status = str(payload.get("Status", payload.get("status", ""))).lower()
             if status == "processed":
-                feed_urls = payload.get("FeedUrls") or payload.get("feedUrls") or []
+                feed_urls = (
+                    payload.get("FeedUrls")
+                    or payload.get("feedUrls")
+                    or payload.get("FeedURLs")
+                    or payload.get("feedURLs")
+                    or []
+                )
                 if not isinstance(feed_urls, list):
                     raise StamdataError(f"Unexpected FeedUrls type in job status: {type(feed_urls)}")
                 return JobResult(job_id=job_id, feed_urls=[str(u) for u in feed_urls], status_payload=payload)
@@ -156,11 +194,28 @@ class StamdataClient:
 
 
 def _extract_filename(content_disposition: str) -> str | None:
-    marker = "filename="
-    if marker not in content_disposition:
+    if not content_disposition:
         return None
-    filename = content_disposition.split(marker, 1)[1].strip().strip('"')
-    return Path(filename).name or None
+
+    # Prefer RFC 5987 filename* when present: filename*=UTF-8''file%20name.json
+    for part in content_disposition.split(";"):
+        token = part.strip()
+        if token.lower().startswith("filename*="):
+            value = token.split("=", 1)[1].strip().strip('"')
+            if "''" in value:
+                value = value.split("''", 1)[1]
+            from urllib.parse import unquote
+
+            decoded = unquote(value)
+            return Path(decoded).name or None
+
+    for part in content_disposition.split(";"):
+        token = part.strip()
+        if token.lower().startswith("filename="):
+            value = token.split("=", 1)[1].strip().strip('"')
+            return Path(value).name or None
+
+    return None
 
 
 def _extract_records(payload: Any) -> list[dict[str, Any]]:
@@ -222,13 +277,23 @@ def _build_latest_ratings_map(rating_rows: list[dict[str, Any]]) -> dict[str, di
     result: dict[str, dict[str, Any]] = {}
     for org, (_, row) in latest.items():
         result[org] = {
-            "siI_Rating": row.get("siI_Rating") or row.get("SiiRating") or row.get("Rating") or row.get("rating"),
+            "siI_Rating": row.get("siI_Rating")
+            or row.get("SiiRating")
+            or row.get("Rating")
+            or row.get("rating")
+            or row.get("LongTermIDR")
+            or row.get("ShortTermIDR"),
             "siI_RatingNormalized": row.get("siI_RatingNormalized")
             or row.get("SiiRatingNormalized")
-            or row.get("ratingNormalized"),
+            or row.get("ratingNormalized")
+            or row.get("LongTerm_CQS_SII")
+            or row.get("ShortTerm_CQS_SII")
+            or row.get("LongTerm_CQS_CRDIV")
+            or row.get("ShortTerm_CQS_CRDIV"),
             "siI_RatingCompany": row.get("siI_RatingCompany")
             or row.get("SiiRatingCompany")
-            or row.get("ratingCompany"),
+            or row.get("ratingCompany")
+            or row.get("RatingCompany"),
         }
     return result
 
