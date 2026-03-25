@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.618421052631579,
+  "precision_macro": 0.741388044579534,
+  "recall_macro": 0.5043859649122807,
+  "f1_macro": 0.5435800126502214,
+  "f1_weighted": 0.6075601717766903,
+  "roc_auc_ovr_macro": 0.766852052840219,
+  "run_id": "run_2026-03-25_financial_only_random_forest_grouped",
+  "feature_set": "financial_only",
+  "model_name": "random_forest",
+  "split_type": "grouped",
+  "train_rows": 306,
+  "test_rows": 76
+}

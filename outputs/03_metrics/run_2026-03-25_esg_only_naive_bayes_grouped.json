@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.15789473684210525,
+  "precision_macro": 0.5281385281385281,
+  "recall_macro": 0.40970072239422084,
+  "f1_macro": 0.16817653890824621,
+  "f1_weighted": 0.18573262424353568,
+  "roc_auc_ovr_macro": 0.6693632785524182,
+  "run_id": "run_2026-03-25_esg_only_naive_bayes_grouped",
+  "feature_set": "esg_only",
+  "model_name": "naive_bayes",
+  "split_type": "grouped",
+  "train_rows": 306,
+  "test_rows": 76
+}

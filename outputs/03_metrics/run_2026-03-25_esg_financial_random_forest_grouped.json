@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.7368421052631579,
+  "precision_macro": 0.660218253968254,
+  "recall_macro": 0.5895252837977296,
+  "f1_macro": 0.6101010101010101,
+  "f1_weighted": 0.7293460925039873,
+  "roc_auc_ovr_macro": 0.8118690958993632,
+  "run_id": "run_2026-03-25_esg_financial_random_forest_grouped",
+  "feature_set": "esg_financial",
+  "model_name": "random_forest",
+  "split_type": "grouped",
+  "train_rows": 306,
+  "test_rows": 76
+}
