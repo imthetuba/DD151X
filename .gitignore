@@ -1,3 +1,21 @@
+
+
+.tex
+.pdf
+.bib
+
+# Ruff stuff:
+.ruff_cache/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# PyPI configuration file
+.pypirc
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
