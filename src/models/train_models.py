@@ -27,8 +27,14 @@ def train_model(
     X_train: pd.DataFrame,
     y_train: pd.Series,
     resampling: str,
+    random_state: int | None = None,
 ) -> Any:
-    estimator = build_model(model_name, model_params, class_weight_mode)
+    estimator = build_model(
+        model_name,
+        model_params,
+        class_weight_mode,
+        random_state=random_state,
+    )
 
     needs_scaling = model_name in {"logistic_regression", "naive_bayes", "xgboost"}
 

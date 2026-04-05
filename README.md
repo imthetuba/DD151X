@@ -148,7 +148,7 @@ python3 download_curated_rated_esg_dataset.py \
   --output data/curated_rated_esg_dataset.csv
 ```
 
-## Step 1 Implementation (Completed)
+## Step 1 Data cleaning and prep (Completed)
 
 Run the Step 1 preprocessing pipeline:
 
@@ -192,7 +192,7 @@ Imbalance decision:
 - Use `class_weight='balanced'` for baseline model training.
 - Evaluate oversampling (for example SMOTE) in cross-validated experiments.
 
-## Step 2 Implementation (Completed)
+## Step 2 Implementation of Models, Training, Evaluation (Completed)
 
 Step 2 is now implemented as a config-driven training pipeline for all required model families and feature views.
 
@@ -284,3 +284,94 @@ Example:
 ### Extension note
 
 The Step 2 framework is ready for additional variables (Interest Coverage Ratio, ROA, ESG Score, Renewable Energy Share, Climate Policy Uncertainty) once added to the curated dataset.
+
+
+
+
+
+## Step 3: Repeated Evaluation to limit the effects of small sample
+
+Step 3 adds a lightweight repeated-seed evaluation to reduce dependence on one split/seed.
+
+What it does:
+
+- Runs the same Step 2 experiment grid across multiple seeds (default: 10 seeds, 0..9).
+- Uses each seed for both split generation and model random states (where supported).
+- Stores compact metrics-only outputs (no extra model binaries/plots/prediction files).
+
+Run Step 3:
+
+```bash
+python src/run_experiments_repeated.py --config configs/experiment_config.yaml --n-seeds 10 --seed-start 0
+```
+
+Step 3 outputs:
+
+- `outputs/03_metrics/repeated_seed_run_summary.csv`
+  - One row per `(seed, split_type, feature_set, model_name)` with all metrics.
+- `outputs/03_metrics/repeated_seed_aggregate_mean_std.csv`
+  - Mean and standard deviation per `(split_type, feature_set, model_name)`.
+- `outputs/07_reports/repeated_seed_top_by_f1_mean.md`
+  - Top 10 runs ranked by `f1_macro_mean`, including spread (`std`).
+
+This keeps the output structure consistent with Step 2 while adding robustness reporting (average + spread) with minimal artifact growth.
+
+
+# Explaining the code
+
+## Incomplete datapoints
+How we handle missing data points for the enriched financial dataset: 
+the code does not drop those datapoints. It imputes missing enriched values and keeps all rows in training/testing.
+
+Where this happens:
+
+    Feature views are created by column selection only, with no missing-value filtering in build_feature_views.py:19.
+    Training always starts with a median imputer in the pipeline in train_models.py:35.
+    The model is fit on split rows directly (not a filtered subset) in run_experiments.py:101 and run_experiments.py:110.
+
+What that means in practice:
+
+    If a row is missing some enriched features, those missing cells are replaced by the training-set median for each feature.
+    If a row is missing all enriched-only features, it still stays in the dataset and gets median-filled values for those columns.
+    Since the imputer is inside the sklearn pipeline and fit during model training, test-set missing values are also filled using medians learned from train data only (good leakage hygiene).
+
+## Current structure of data 
+Total rows: 382
+Rows complete on all financial_enriched features: 134
+Rows with any missing financial_enriched feature: 248
+(134 + 248 = 382)
+Rows with at least one enriched-only value present: 199
+Rows with all enriched-only values missing: 183
+(199 + 183 = 382)
+
+## roc_auc_ovr_macro
+
+roc_auc_ovr_macro means:
+
+  roc_auc: Area Under the ROC Curve.
+  ovr: One-vs-Rest for multiclass classification.
+  macro: Unweighted average across classes.
+
+How it is computed for three classes (A, B, C):
+
+  Build three binary problems: A vs not-A, B vs not-B, C vs not-C.
+  Compute ROC AUC for each class using predicted probabilities.
+  Take the plain mean: (AUC_A + AUC_B + AUC_C) / 3.
+
+Interpretation:
+
+  1.0 means perfect ranking/separation.
+  0.5 means random ranking.
+  Below 0.5 means systematically worse-than-random ranking for part of the decision surface.
+
+Why it matters in this project:
+
+  It evaluates probability ranking quality, not only hard class labels.
+  With macro averaging, each class is weighted equally, so minority classes still count fully.
+  It complements f1_macro:
+    f1_macro depends on final class decisions.
+    roc_auc_ovr_macro uses the full probability distribution.
+
+
+
+
