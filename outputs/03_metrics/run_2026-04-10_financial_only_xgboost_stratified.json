@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.6233766233766234,
+  "precision_macro": 0.5600029815146094,
+  "recall_macro": 0.5655545112781954,
+  "f1_macro": 0.5591883070810274,
+  "f1_weighted": 0.6211717614016465,
+  "roc_auc_ovr_macro": 0.7937696041079499,
+  "run_id": "run_2026-04-10_financial_only_xgboost_stratified",
+  "feature_set": "financial_only",
+  "model_name": "xgboost",
+  "split_type": "stratified",
+  "train_rows": 305,
+  "test_rows": 77
+}

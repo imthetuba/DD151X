@@ -13,7 +13,7 @@ The modelling setup follows a supervised multi-class classification problem wher
 - High Yield
 
 The feature space combines financial factors and ESG metrics to test whether this improves predictive power for credit risk assessment applications.
-
+D
 ## Research Focus
 
 The project addresses two dimensions:
@@ -285,7 +285,8 @@ Example:
 
 The Step 2 framework is ready for additional variables (Interest Coverage Ratio, ROA, ESG Score, Renewable Energy Share, Climate Policy Uncertainty) once added to the curated dataset.
 
-
+## Step 2.1 
+We added complementary figures for the financial data through yahoo finance. These are known as "enriched" features henceforth. We explain at the end how missing data points are dealt with. 
 
 
 

@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.33766233766233766,
+  "precision_macro": 0.6153198653198654,
+  "recall_macro": 0.47595551378446116,
+  "f1_macro": 0.35177532087940017,
+  "f1_weighted": 0.4089921820459373,
+  "roc_auc_ovr_macro": 0.6139788956518281,
+  "run_id": "run_2026-04-10_esg_financial_enriched_naive_bayes_stratified",
+  "feature_set": "esg_financial_enriched",
+  "model_name": "naive_bayes",
+  "split_type": "stratified",
+  "train_rows": 305,
+  "test_rows": 77
+}

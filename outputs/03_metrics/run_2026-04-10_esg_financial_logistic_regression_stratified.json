@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.6753246753246753,
+  "precision_macro": 0.6103988603988604,
+  "recall_macro": 0.6799812030075189,
+  "f1_macro": 0.6196729645005506,
+  "f1_weighted": 0.6860736484560936,
+  "roc_auc_ovr_macro": 0.8168932136507325,
+  "run_id": "run_2026-04-10_esg_financial_logistic_regression_stratified",
+  "feature_set": "esg_financial",
+  "model_name": "logistic_regression",
+  "split_type": "stratified",
+  "train_rows": 305,
+  "test_rows": 77
+}

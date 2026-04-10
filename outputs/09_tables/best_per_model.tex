@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Best configuration per model (10 seeds).}
+  \label{tab:best_per_model}
+  \begin{tabular}{lllll}
+    \toprule
+    Model & Feature set & Split & F1\textsubscript{macro} mean $\pm$ std & AUC mean $\pm$ std \\
+    \midrule
+    Random Forest & ESG + Financial Enriched & grouped & $0.6552 \pm 0.0625$ & $0.8622 \pm 0.0395$ \\
+    XGBoost & ESG + Financial Enriched & stratified & $0.6527 \pm 0.0488$ & $0.8539 \pm 0.0174$ \\
+    Logistic Regression & ESG + Financial Enriched & grouped & $0.5317 \pm 0.0446$ & $0.7560 \pm 0.0529$ \\
+    Naive Bayes & Financial Enriched & grouped & $0.3844 \pm 0.0581$ & $0.6925 \pm 0.0500$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
