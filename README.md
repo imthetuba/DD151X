@@ -1,5 +1,29 @@
 # DD151X
 
+# How to run  
+  # 1. Set up environment
+  python3 -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+  brew install libomp  # needed for XGBoost on macOS
+
+  # 2. Run single-seed experiment (40 runs)
+  python3 src/run_experiments.py --config configs/experiment_config.yaml
+
+  # 3. Run repeated-seed experiment (400 runs)
+  python3 src/run_experiments_repeated.py --config configs/experiment_config.yaml --n-seeds 10 --seed-start 0
+
+  # 4. Run dataset diagnostics
+  python3 scripts/generate_modeling_dataset_diagnostics.py
+
+  # 5. Generate figures and LaTeX tables
+  python3 scripts/generate_repeated_seed_figures.py
+
+  Steps 2-4 produce the raw results. Step 5 generates the bar charts, ROC curves, feature importance plots,
+  confusion matrices, and LaTeX tables from those results.
+
+
+
 Degree project at KTH (Industrial Engineering and Management, Computer Science track) focused on ESG-integrated machine learning for corporate credit risk assessment in the Nordic bond market.
 
 ## Project Goal
