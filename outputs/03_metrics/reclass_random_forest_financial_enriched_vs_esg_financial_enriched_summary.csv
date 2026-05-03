@@ -1,0 +1,3 @@
+split_type,model_name,feature_set_a,feature_set_b,seeds_compared,avg_n_compared,avg_total_reclassified,avg_hy_to_ig,avg_ig_to_hy,avg_reclass_rate
+grouped,random_forest,financial_enriched,esg_financial_enriched,10,77.4,14.5,1.7,1.6,0.187551308340782
+stratified,random_forest,financial_enriched,esg_financial_enriched,10,77.0,11.6,1.2,1.6,0.15064935064935064

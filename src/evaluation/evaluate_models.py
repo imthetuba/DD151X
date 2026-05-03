@@ -73,7 +73,7 @@ def extract_feature_importance(model: Any, feature_names: list[str]) -> pd.DataF
         if coef.ndim == 2:
             scores = np.mean(np.abs(coef), axis=0)
         else:
-            scores = np.abs(coef)
+            f = np.abs(coef)
     else:
         # Naive Bayes and unsupported models: return empty table.
         return pd.DataFrame(columns=["feature", "importance"])

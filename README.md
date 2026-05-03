@@ -338,8 +338,59 @@ Step 3 outputs:
   - Mean and standard deviation per `(split_type, feature_set, model_name)`.
 - `outputs/07_reports/repeated_seed_top_by_f1_mean.md`
   - Top 10 runs ranked by `f1_macro_mean`, including spread (`std`).
+- `outputs/03_metrics/reclass_random_forest_financial_enriched_vs_esg_financial_enriched_by_seed.csv`
+  - Seed-level reclassification counts for the default comparison.
+- `outputs/03_metrics/reclass_random_forest_financial_enriched_vs_esg_financial_enriched_summary.csv`
+  - Per-split averages across seeds (reclassified count, HY->IG, IG->HY, rate).
+- `outputs/07_reports/reclass_random_forest_financial_enriched_vs_esg_financial_enriched.md`
+  - Thesis-friendly markdown report with both summary and seed-level tables.
 
 This keeps the output structure consistent with Step 2 while adding robustness reporting (average + spread) with minimal artifact growth.
+
+### Step 3 reclassification analysis (HY <-> IG)
+
+`run_experiments_repeated.py` now includes built-in reclassification tracking between two feature sets for a chosen model.
+
+Default analysis:
+
+- Model: `random_forest`
+- Baseline feature set (A): `financial_enriched`
+- Comparison feature set (B): `esg_financial_enriched`
+- HY detection: case-insensitive regex `high yield`
+- Splits: all split strategies listed in config
+
+It computes, per seed and split:
+
+- `total_reclassified`: predictions where A and B differ
+- `hy_to_ig`: A predicts HY and B predicts IG
+- `ig_to_hy`: A predicts IG and B predicts HY
+- `reclass_rate`: `total_reclassified / n_compared`
+
+Example (default):
+
+```bash
+python src/run_experiments_repeated.py --config configs/experiment_config.yaml --n-seeds 10 --seed-start 0
+```
+
+Example (custom comparison):
+
+```bash
+python src/run_experiments_repeated.py \
+  --config configs/experiment_config.yaml \
+  --n-seeds 10 \
+  --seed-start 0 \
+  --reclass-model random_forest \
+  --reclass-feature-a financial_enriched \
+  --reclass-feature-b esg_financial_enriched \
+  --reclass-splits stratified grouped \
+  --hy-pattern "high yield"
+```
+
+Notes:
+
+- Reclassification is evaluated only when matching prediction sets exist for the selected `(model, feature_set_a, feature_set_b, split, seed)`.
+- Comparison is aligned on test-row indices to verify that predictions are compared on the same observations.
+- If any row index mismatch occurs, dropped rows are reported in `dropped_due_to_misalignment`.
 
 
 # Explaining the code
